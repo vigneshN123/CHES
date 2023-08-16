@@ -1,0 +1,2953 @@
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW16 on line vty 3.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#terminal width 511
+US-NE-KIMB1-SW16#terminal length 0
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#sw16.txt
+% Unknown command or computer name, or unable to find computer address
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW16 on line vty 2.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#terminal width 511
+US-NE-KIMB1-SW16#terminal length 0
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#more sw16.txt
+! SW16
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi1/0/1-24
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.16 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+avc sd-service
+  controller
+   source-interface Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+ip domain lookup source-interface Vlan10
+
+    
+
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW16 on line vty 3.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#terminal width 511
+US-NE-KIMB1-SW16#terminal length 0
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#more sw16.txt
+! SW16
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi1/0/1-24
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.16 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+avc sd-service
+  controller
+   source-interface Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+ip domain lookup source-interface Vlan10
+
+    
+
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW15 on line vty 2.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#terminal width 511
+US-NE-KIMB1-SW15#terminal length 0
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#more sw15.txt
+!SW15
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi1/0/1-24
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.15 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+avc sd-service
+  controller
+   source-interface Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+logging host 10.64.25.26 transport udp port 5142
+no ntp logging
+no snmp-server community read!string789 RO SNMP
+!
+ip domain lookup source-interface Vlan10
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW16 on line vty 2.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#terminal width 511
+US-NE-KIMB1-SW16#terminal length 0
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#more sw16.txt
+! SW16
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi1/0/1-24
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.16 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+avc sd-service
+  controller
+   source-interface Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+ip domain lookup source-interface Vlan10
+
+    
+
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW16 on line vty 2.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#terminal width 511
+US-NE-KIMB1-SW16#terminal length 0
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#more sw16.txt
+! SW16
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi1/0/1-24
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.16 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+avc sd-service
+  controller
+   source-interface Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+ip domain lookup source-interface Vlan10
+
+    
+
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW15 on line vty 2.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#terminal width 511
+US-NE-KIMB1-SW15#terminal length 0
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#more sw15.txt
+!SW15
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi1/0/1-24
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.15 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+avc sd-service
+  controller
+   source-interface Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+logging host 10.64.25.26 transport udp port 5142
+no ntp logging
+no snmp-server community read!string789 RO SNMP
+!
+ip domain lookup source-interface Vlan10
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW16 on line vty 2.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#terminal width 511
+US-NE-KIMB1-SW16#terminal length 0
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#more sw16.txt
+! SW16
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi1/0/1-24
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.16 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+avc sd-service
+  controller
+   source-interface Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+ip domain lookup source-interface Vlan10
+
+    
+
+US-NE-KIMB1-SW16#
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW16 on line vty 3.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#terminal width 511
+US-NE-KIMB1-SW16#terminal length 0
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#more sw16.txt
+! SW16
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi1/0/1-24
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.16 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+avc sd-service
+  controller
+   source-interface Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+ip domain lookup source-interface Vlan10
+
+    
+
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW15 on line vty 2.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#terminal width 511
+US-NE-KIMB1-SW15#terminal length 0
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#more sw15.txt
+!SW15
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi1/0/1-24
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.15 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+avc sd-service
+  controller
+   source-interface Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+logging host 10.64.25.26 transport udp port 5142
+no ntp logging
+no snmp-server community read!string789 RO SNMP
+!
+ip domain lookup source-interface Vlan10
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW16 on line vty 3.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#terminal width 511
+US-NE-KIMB1-SW16#terminal length 0
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#more sw16.txt
+! SW16
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi1/0/1-24
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.16 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+avc sd-service
+  controller
+   source-interface Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+ip domain lookup source-interface Vlan10
+
+    
+
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW15 on line vty 2.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#terminal width 511
+US-NE-KIMB1-SW15#terminal length 0
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#more sw15.txt
+!SW15
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi1/0/1-24
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.15 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+avc sd-service
+  controller
+   source-interface Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+logging host 10.64.25.26 transport udp port 5142
+no ntp logging
+no snmp-server community read!string789 RO SNMP
+!
+ip domain lookup source-interface Vlan10
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW-100 on line vty 3.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+
+US-NE-KIMB1-SW-100#
+US-NE-KIMB1-SW-100#terminal width 511
+US-NE-KIMB1-SW-100#terminal length 0
+US-NE-KIMB1-SW-100#
+US-NE-KIMB1-SW-100#
+US-NE-KIMB1-SW-100#
+US-NE-KIMB1-SW-100#
+US-NE-KIMB1-SW-100#
+US-NE-KIMB1-SW-100#
+US-NE-KIMB1-SW-100#
+US-NE-KIMB1-SW-100#
+US-NE-KIMB1-SW-100#more sw.txt
+%Error opening flash:sw.txt (Permission denied)
+US-NE-KIMB1-SW-100#
+US-NE-KIMB1-SW-100#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device or the attached networks is          *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+
+You have connected to US-NE-KIMB1-SW4 on line vty 1.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+
+US-NE-KIMB1-SW4#
+US-NE-KIMB1-SW4#terminal width 511
+US-NE-KIMB1-SW4#terminal length 0
+US-NE-KIMB1-SW4#
+US-NE-KIMB1-SW4#
+US-NE-KIMB1-SW4#
+US-NE-KIMB1-SW4#
+US-NE-KIMB1-SW4#
+US-NE-KIMB1-SW4#
+US-NE-KIMB1-SW4#
+US-NE-KIMB1-SW4#
+US-NE-KIMB1-SW4#
+US-NE-KIMB1-SW4#
+US-NE-KIMB1-SW4#more sw4.txt
+!SW4
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range fa0/1-24
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.0.9 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+logging host 10.64.25.26 transport udp port 5142
+no logging 10.64.12.180
+no snmp-server community read!string789 RO SNMP
+no snmp-server host 10.64.12.180 read!string789
+ip domain lookup source-interface Vlan10
+
+US-NE-KIMB1-SW4#
+US-NE-KIMB1-SW4#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW11 on line vty 2.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+US-NE-KIMB1-SW11#
+US-NE-KIMB1-SW11#terminal width 511
+US-NE-KIMB1-SW11#terminal length 0
+US-NE-KIMB1-SW11#
+US-NE-KIMB1-SW11#
+US-NE-KIMB1-SW11#
+US-NE-KIMB1-SW11#
+US-NE-KIMB1-SW11#
+US-NE-KIMB1-SW11#
+US-NE-KIMB1-SW11#
+US-NE-KIMB1-SW11#
+US-NE-KIMB1-SW11#
+US-NE-KIMB1-SW11#
+US-NE-KIMB1-SW11#more sw11.txt
+!SW11
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi1/0/1-24
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.11 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+avc sd-service
+  controller
+   source-interface Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+ip domain lookup source-interface Vlan10 
+
+    
+
+US-NE-KIMB1-SW11#
+US-NE-KIMB1-SW11#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW12 on line vty 3.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+US-NE-KIMB1-SW12#
+US-NE-KIMB1-SW12#terminal width 511
+US-NE-KIMB1-SW12#terminal length 0
+US-NE-KIMB1-SW12#
+US-NE-KIMB1-SW12#
+US-NE-KIMB1-SW12#
+US-NE-KIMB1-SW12#
+US-NE-KIMB1-SW12#
+US-NE-KIMB1-SW12#
+US-NE-KIMB1-SW12#
+US-NE-KIMB1-SW12#
+US-NE-KIMB1-SW12#
+US-NE-KIMB1-SW12#more sw12.txt
+!SW12
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi1/0/1-24
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.12 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+logging host 10.64.25.26 transport udp port 5142
+no logging 10.64.12.180
+no snmp-server community read!string789 RO SNMP
+no snmp-server host 10.64.12.180 read!string789
+no ntp logging
+ip domain lookup source-interface Vlan10
+US-NE-KIMB1-SW12#
+US-NE-KIMB1-SW12#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW13 on line vty 2.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+
+US-NE-KIMB1-SW13#
+US-NE-KIMB1-SW13#terminal width 511
+US-NE-KIMB1-SW13#terminal length 0
+US-NE-KIMB1-SW13#
+US-NE-KIMB1-SW13#
+US-NE-KIMB1-SW13#
+US-NE-KIMB1-SW13#
+US-NE-KIMB1-SW13#
+US-NE-KIMB1-SW13#
+US-NE-KIMB1-SW13#
+US-NE-KIMB1-SW13#
+US-NE-KIMB1-SW13#
+US-NE-KIMB1-SW13#
+US-NE-KIMB1-SW13#more sw13.txt
+!SW13
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi1/0/1-24
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.13 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+avc sd-service
+  controller
+   source-interface Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+! 
+ip domain lookup source-interface Vlan10
+    
+
+US-NE-KIMB1-SW13#
+US-NE-KIMB1-SW13#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW14 on line vty 3.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+US-NE-KIMB1-SW14#
+US-NE-KIMB1-SW14#terminal width 511
+US-NE-KIMB1-SW14#terminal length 0
+US-NE-KIMB1-SW14#
+US-NE-KIMB1-SW14#
+US-NE-KIMB1-SW14#
+US-NE-KIMB1-SW14#
+US-NE-KIMB1-SW14#
+US-NE-KIMB1-SW14#
+US-NE-KIMB1-SW14#
+US-NE-KIMB1-SW14#
+US-NE-KIMB1-SW14#
+US-NE-KIMB1-SW14#
+US-NE-KIMB1-SW14#more sw14.txt
+!SW14
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi1/0/1-24
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.14 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+avc sd-service
+  controller
+   source-interface Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+logging host 10.64.25.26 transport udp port 5142
+no ntp logging
+no snmp-server community read!string789 RO SNMP
+ip domain lookup source-interface Vlan10
+US-NE-KIMB1-SW14#
+US-NE-KIMB1-SW14#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW15 on line vty 2.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#terminal width 511
+US-NE-KIMB1-SW15#terminal length 0
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#more sw15.txt
+!SW15
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi1/0/1-24
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.15 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+avc sd-service
+  controller
+   source-interface Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+logging host 10.64.25.26 transport udp port 5142
+no ntp logging
+no snmp-server community read!string789 RO SNMP
+!
+ip domain lookup source-interface Vlan10
+US-NE-KIMB1-SW15#
+US-NE-KIMB1-SW15#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW16 on line vty 3.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#terminal width 511
+US-NE-KIMB1-SW16#terminal length 0
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#more sw16.txt
+! SW16
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi1/0/1-24
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.16 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+avc sd-service
+  controller
+   source-interface Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+ip domain lookup source-interface Vlan10
+
+    
+
+US-NE-KIMB1-SW16#
+US-NE-KIMB1-SW16#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW17 on line vty 2.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+US-NE-KIMB1-SW17#
+US-NE-KIMB1-SW17#terminal width 511
+US-NE-KIMB1-SW17#terminal length 0
+US-NE-KIMB1-SW17#
+US-NE-KIMB1-SW17#
+US-NE-KIMB1-SW17#
+US-NE-KIMB1-SW17#
+US-NE-KIMB1-SW17#
+US-NE-KIMB1-SW17#
+US-NE-KIMB1-SW17#
+US-NE-KIMB1-SW17#
+US-NE-KIMB1-SW17#
+US-NE-KIMB1-SW17#
+US-NE-KIMB1-SW17#more sw17.txt
+! SW17
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi1/0/1-48
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.17 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+avc sd-service
+  controller
+   source-interface Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+ip domain lookup source-interface Vlan10
+
+    
+
+US-NE-KIMB1-SW17#
+US-NE-KIMB1-SW17#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW18 on line vty 1.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+
+US-NE-KIMB1-SW18#
+US-NE-KIMB1-SW18#terminal width 511
+US-NE-KIMB1-SW18#terminal length 0
+US-NE-KIMB1-SW18#
+US-NE-KIMB1-SW18#
+US-NE-KIMB1-SW18#
+US-NE-KIMB1-SW18#
+US-NE-KIMB1-SW18#
+US-NE-KIMB1-SW18#
+US-NE-KIMB1-SW18#
+US-NE-KIMB1-SW18#
+US-NE-KIMB1-SW18#
+US-NE-KIMB1-SW18#
+US-NE-KIMB1-SW18#more sw18.txt
+!SW18
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi0/1-12
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.18 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+no ntp logging
+no logging 10.64.12.180
+no snmp-server community read!string789 RO SNMP
+snmp-server community chesswwr RW SNMP
+logging host 10.64.25.26 transport udp port 5142
+ip domain lookup source-interface Vlan10
+
+    
+
+US-NE-KIMB1-SW18#
+US-NE-KIMB1-SW18#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW19 on line vty 2.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+US-NE-KIMB1-SW19#
+US-NE-KIMB1-SW19#terminal width 511
+US-NE-KIMB1-SW19#terminal length 0
+US-NE-KIMB1-SW19#
+US-NE-KIMB1-SW19#
+US-NE-KIMB1-SW19#
+US-NE-KIMB1-SW19#
+US-NE-KIMB1-SW19#
+US-NE-KIMB1-SW19#
+US-NE-KIMB1-SW19#
+US-NE-KIMB1-SW19#
+US-NE-KIMB1-SW19#
+US-NE-KIMB1-SW19#
+US-NE-KIMB1-SW19#more sw19.txt
+!SW19
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi0/1-12
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.19 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+no ntp logging
+no logging 10.64.12.180
+no snmp-server community read!string789 RO SNMP
+snmp-server community chesswwr RW SNMP
+logging host 10.64.25.26 transport udp port 5142
+ip domain lookup source-interface Vlan10
+
+    
+
+US-NE-KIMB1-SW19#
+US-NE-KIMB1-SW19#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW20 on line vty 2.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+
+US-NE-KIMB1-SW20#
+US-NE-KIMB1-SW20#terminal width 511
+US-NE-KIMB1-SW20#terminal length 0
+US-NE-KIMB1-SW20#
+US-NE-KIMB1-SW20#
+US-NE-KIMB1-SW20#
+US-NE-KIMB1-SW20#
+US-NE-KIMB1-SW20#
+US-NE-KIMB1-SW20#
+US-NE-KIMB1-SW20#
+US-NE-KIMB1-SW20#
+US-NE-KIMB1-SW20#
+US-NE-KIMB1-SW20#
+US-NE-KIMB1-SW20#more sw20.txt
+!SW20
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi0/1-6
+switchport access vlan 10
+!
+int range gi0/8-12
+switchport access vlan 10
+!
+int gi0/7
+ switchport trunk native vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.20 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+no ntp logging
+no logging 10.64.12.180
+no snmp-server community read!string789 RO SNMP
+snmp-server community chesswwr RW SNMP
+logging host 10.64.25.26 transport udp port 5142
+ip domain lookup source-interface Vlan10
+
+
+    
+
+US-NE-KIMB1-SW20#
+US-NE-KIMB1-SW20#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW21 on line vty 2.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+
+US-NE-KIMB1-SW21#
+US-NE-KIMB1-SW21#terminal width 511
+US-NE-KIMB1-SW21#terminal length 0
+US-NE-KIMB1-SW21#
+US-NE-KIMB1-SW21#
+US-NE-KIMB1-SW21#
+US-NE-KIMB1-SW21#
+US-NE-KIMB1-SW21#
+US-NE-KIMB1-SW21#
+US-NE-KIMB1-SW21#
+US-NE-KIMB1-SW21#
+US-NE-KIMB1-SW21#
+US-NE-KIMB1-SW21#
+US-NE-KIMB1-SW21#more sw21.txt
+!SW21
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi0/1-12
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.21 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+no ntp logging
+no logging 10.64.12.180
+no snmp-server community read!string789 RO SNMP
+snmp-server community chesswwr RW SNMP
+logging host 10.64.25.26 transport udp port 5142
+ip domain lookup source-interface Vlan10
+
+    
+
+US-NE-KIMB1-SW21#
+US-NE-KIMB1-SW21#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW22 on line vty 1.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+
+US-NE-KIMB1-SW22#
+US-NE-KIMB1-SW22#terminal width 511
+US-NE-KIMB1-SW22#terminal length 0
+US-NE-KIMB1-SW22#
+US-NE-KIMB1-SW22#
+US-NE-KIMB1-SW22#
+US-NE-KIMB1-SW22#
+US-NE-KIMB1-SW22#
+US-NE-KIMB1-SW22#
+US-NE-KIMB1-SW22#
+US-NE-KIMB1-SW22#
+US-NE-KIMB1-SW22#
+US-NE-KIMB1-SW22#
+US-NE-KIMB1-SW22#more sw22.txt
+! SW22
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi/0/1-8
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.22 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+logging host 10.64.25.26 transport udp port 5142
+no logging 10.64.12.180
+no snmp-server community read!string789 RO SNMP
+no snmp-server host 10.64.12.180 read!string789
+no ntp logging   
+logging host 10.64.25.26 transport udp port 5142
+ip domain lookup source-interface Vlan10
+US-NE-KIMB1-SW22#
+US-NE-KIMB1-SW22#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW23 on line vty 1.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+
+US-NE-KIMB1-SW23#
+US-NE-KIMB1-SW23#terminal width 511
+US-NE-KIMB1-SW23#terminal length 0
+US-NE-KIMB1-SW23#
+US-NE-KIMB1-SW23#
+US-NE-KIMB1-SW23#
+US-NE-KIMB1-SW23#
+US-NE-KIMB1-SW23#
+US-NE-KIMB1-SW23#
+US-NE-KIMB1-SW23#
+US-NE-KIMB1-SW23#
+US-NE-KIMB1-SW23#
+US-NE-KIMB1-SW23#
+US-NE-KIMB1-SW23#more sw23.txt
+!SW23
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi0/1-12
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.23 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+no ntp logging
+no logging 10.64.12.180
+no snmp-server community read!string789 RO SNMP
+snmp-server community chesswwr RW SNMP
+logging host 10.64.25.26 transport udp port 5142
+ip domain lookup source-interface Vlan10
+
+    
+
+US-NE-KIMB1-SW23#
+US-NE-KIMB1-SW23#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW24 on line vty 1.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+US-NE-KIMB1-SW24#
+US-NE-KIMB1-SW24#terminal width 511
+US-NE-KIMB1-SW24#terminal length 0
+US-NE-KIMB1-SW24#
+US-NE-KIMB1-SW24#
+US-NE-KIMB1-SW24#
+US-NE-KIMB1-SW24#
+US-NE-KIMB1-SW24#
+US-NE-KIMB1-SW24#
+US-NE-KIMB1-SW24#
+US-NE-KIMB1-SW24#
+US-NE-KIMB1-SW24#
+US-NE-KIMB1-SW24#
+US-NE-KIMB1-SW24#more sw24.txt
+!SW24
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi0/1-12
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.24 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+no ntp logging
+no logging 10.64.12.180
+no snmp-server community read!string789 RO SNMP
+snmp-server community chesswwr RW SNMP
+logging host 10.64.25.26 transport udp port 5142
+ip domain lookup source-interface Vlan10
+
+    
+
+US-NE-KIMB1-SW24#
+US-NE-KIMB1-SW24#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW26 on line vty 3.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+
+US-NE-KIMB1-SW26#
+US-NE-KIMB1-SW26#terminal width 511
+US-NE-KIMB1-SW26#terminal length 0
+US-NE-KIMB1-SW26#
+US-NE-KIMB1-SW26#
+US-NE-KIMB1-SW26#
+US-NE-KIMB1-SW26#
+US-NE-KIMB1-SW26#
+US-NE-KIMB1-SW26#
+US-NE-KIMB1-SW26#
+US-NE-KIMB1-SW26#
+US-NE-KIMB1-SW26#
+US-NE-KIMB1-SW26#
+US-NE-KIMB1-SW26#more sw26.txt
+! SW26
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi1/0/1-24
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.26 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+avc sd-service
+  controller
+   source-interface Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+logging host 10.64.25.26 transport udp port 5142
+no logging 10.64.12.180
+no snmp-server community read!string789 RO SNMP
+no snmp-server host 10.64.12.180 read!string789
+no ntp logging   
+logging host 10.64.25.26 transport udp port 5142
+ip domain lookup source-interface Vlan10
+
+US-NE-KIMB1-SW26#
+US-NE-KIMB1-SW26#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW27 on line vty 2.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+US-NE-KIMB1-SW27#
+US-NE-KIMB1-SW27#terminal width 511
+US-NE-KIMB1-SW27#terminal length 0
+US-NE-KIMB1-SW27#
+US-NE-KIMB1-SW27#
+US-NE-KIMB1-SW27#
+US-NE-KIMB1-SW27#
+US-NE-KIMB1-SW27#
+US-NE-KIMB1-SW27#
+US-NE-KIMB1-SW27#
+US-NE-KIMB1-SW27#
+US-NE-KIMB1-SW27#
+US-NE-KIMB1-SW27#
+US-NE-KIMB1-SW27#more sw27.txt
+! SW27
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi1/0/1-24
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.27 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+avc sd-service
+  controller
+   source-interface Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+ip domain lookup source-interface Vlan10
+
+    
+
+US-NE-KIMB1-SW27#
+US-NE-KIMB1-SW27#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW28 on line vty 1.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+US-NE-KIMB1-SW28#
+US-NE-KIMB1-SW28#terminal width 511
+US-NE-KIMB1-SW28#terminal length 0
+US-NE-KIMB1-SW28#
+US-NE-KIMB1-SW28#
+US-NE-KIMB1-SW28#
+US-NE-KIMB1-SW28#
+US-NE-KIMB1-SW28#
+US-NE-KIMB1-SW28#
+US-NE-KIMB1-SW28#
+US-NE-KIMB1-SW28#
+US-NE-KIMB1-SW28#
+US-NE-KIMB1-SW28#
+US-NE-KIMB1-SW28#more sw28.txt
+!SW28
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi0/1-12
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.28 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+no ntp logging
+no logging 10.64.12.180
+no snmp-server community read!string789 RO SNMP
+snmp-server community chesswwr RW SNMP
+logging host 10.64.25.26 transport udp port 5142
+ip domain lookup source-interface Vlan10
+
+
+    
+
+US-NE-KIMB1-SW28#
+US-NE-KIMB1-SW28#exit
+
+
+
+                                          :*****.
+                                              `*** .
+                                                ******`
+   **** **                ** **         **       .   ***
+  ** `****                ** **         **            *:
+  **  ****                ** **         **                .*
+  **    ** ***. ***.***** ** ** *** ********  ***.;* * *** *
+  **    ** * **.* ****;** ***** * ******** ** *;** *** *:*;
+  **    **** **   **** ** *****   ****  ** ** * ** *. ;*
+  **    ******* ****** ** ** ** ******  ** **;* ** *   **`
+  **    ****...** **** ** ** ** * ****  ** ** * ** *   .**:
+  **    **:*  ;** **** ** ** **** ****  ** ** * ** *     **
+  **    ** ****;****** ** ** ** ******  **.** **** *     `*.
+  **    **  *:  ****;; ;;.;; ;; ****;;  ;.;*  `** .;      *
+  **.                                                    `*.
+  :**  .**.   **;   :**   `**.   **:   ;**   .**    **   **
+   *******************************************************
+_____________________________________________________________
+*                                                            *
+* Access to this device and the attached networks is         *
+* prohibited without express permission. Violators will be   *
+* prosecuted to the fullest extent of both civil and         *
+* criminal law.                                              *
+*____________________________________________________________*
+
+
+
+
+You have connected to US-NE-KIMB1-SW29 on line vty 2.
+Use of this system constitutes your consent to monitoring.
+*****************************************************************
+
+US-NE-KIMB1-SW29#
+US-NE-KIMB1-SW29#terminal width 511
+US-NE-KIMB1-SW29#terminal length 0
+US-NE-KIMB1-SW29#
+US-NE-KIMB1-SW29#
+US-NE-KIMB1-SW29#
+US-NE-KIMB1-SW29#
+US-NE-KIMB1-SW29#
+US-NE-KIMB1-SW29#
+US-NE-KIMB1-SW29#
+US-NE-KIMB1-SW29#
+US-NE-KIMB1-SW29#
+US-NE-KIMB1-SW29#
+US-NE-KIMB1-SW29#more sw29.txt
+!SW29
+! Create new vlans
+vlan 10
+name [KIMB1-Workstations]
+vlan 20
+name [KIMB1-VoIP]
+vlan 236
+name [KIMB1-IoT]
+!
+int range gi1/0/2-24
+switchport access vlan 10
+!
+interface Vlan1
+ no ip address
+ shut
+!
+interface Vlan10
+ description [Workstations]
+ ip address 10.6.7.29 255.255.248.0
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+ no shut
+!
+interface GigabitEthernet1/0/1
+ switchport trunk native vlan 10
+!
+ip domain lookup source-interface Vlan10
+ip http client source-interface Vlan10
+ip ftp source-interface Vlan10
+ip ssh source-interface Vlan10
+ip radius source-interface Vlan10
+logging source-interface Vlan10
+snmp-server trap-source Vlan10
+ntp source Vlan10
+!
+flow exporter dnacexporter
+ source vlan10
+!
+crypto pki trustpoint DNAC-CA
+ source interface Vlan10
+!
+no ntp logging
+no logging 10.64.12.180
+no snmp-server community read!string789 RO SNMP
+snmp-server community chesswwr RW SNMP
+logging host 10.64.25.26 transport udp port 5142
+
+
+    
+
+US-NE-KIMB1-SW29#
+US-NE-KIMB1-SW29#exit
