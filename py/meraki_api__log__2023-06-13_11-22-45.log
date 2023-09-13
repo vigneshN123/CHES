@@ -1,0 +1,13 @@
+2023-06-13 11:22:45       meraki:     INFO > Meraki dashboard API session initialized with these parameters: {'version': '1.33.0', 'api_key': '************************************8658', 'base_url': 'https://api.meraki.com/api/v1', 'single_request_timeout': 60, 'certificate_path': '', 'requests_proxy': '', 'wait_on_rate_limit': True, 'nginx_429_retry_wait_time': 60, 'action_batch_retry_wait_time': 60, 'retry_4xx_error': False, 'retry_4xx_error_wait_time': 60, 'maximum_retries': 2, 'simulate': False, 'be_geo_id': None, 'caller': None, 'use_iterator_for_get_pages': False}
+2023-06-13 11:22:45       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2CK-GZE5-RDXJ', 'params': None}
+2023-06-13 11:22:45       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-GZE5-RDXJ
+2023-06-13 11:22:46       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-13 11:22:46       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2CK-GZE5-RDXJ/lldpCdp', 'params': None}
+2023-06-13 11:22:46       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-GZE5-RDXJ/lldpCdp
+2023-06-13 11:22:46       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-13 11:22:46       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2CK-ZLFP-LQJ3', 'params': None}
+2023-06-13 11:22:46       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-ZLFP-LQJ3
+2023-06-13 11:22:47       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-13 11:22:47       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2CK-ZLFP-LQJ3/lldpCdp', 'params': None}
+2023-06-13 11:22:47       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-ZLFP-LQJ3/lldpCdp
+2023-06-13 11:22:47       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK

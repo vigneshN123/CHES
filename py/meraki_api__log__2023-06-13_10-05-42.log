@@ -1,0 +1,4 @@
+2023-06-13 10:05:42       meraki:     INFO > Meraki dashboard API session initialized with these parameters: {'version': '1.33.0', 'api_key': '************************************8658', 'base_url': 'https://api.meraki.com/api/v1', 'single_request_timeout': 60, 'certificate_path': '', 'requests_proxy': '', 'wait_on_rate_limit': True, 'nginx_429_retry_wait_time': 60, 'action_batch_retry_wait_time': 60, 'retry_4xx_error': False, 'retry_4xx_error_wait_time': 60, 'maximum_retries': 2, 'simulate': False, 'be_geo_id': None, 'caller': None, 'use_iterator_for_get_pages': False}
+2023-06-13 10:05:42       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2DD-HLZM-CBZZ/lldpCdp', 'params': None}
+2023-06-13 10:05:42       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-HLZM-CBZZ/lldpCdp
+2023-06-13 10:05:43       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK

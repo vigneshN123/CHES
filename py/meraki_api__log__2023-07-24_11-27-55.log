@@ -1,0 +1,4 @@
+2023-07-24 11:27:55       meraki:     INFO > Meraki dashboard API session initialized with these parameters: {'version': '1.33.0', 'api_key': '************************************8658', 'base_url': 'https://api.meraki.com/api/v1', 'single_request_timeout': 60, 'certificate_path': '', 'requests_proxy': '', 'wait_on_rate_limit': True, 'nginx_429_retry_wait_time': 60, 'action_batch_retry_wait_time': 60, 'retry_4xx_error': False, 'retry_4xx_error_wait_time': 60, 'maximum_retries': 2, 'simulate': False, 'be_geo_id': None, 'caller': None, 'use_iterator_for_get_pages': False}
+2023-07-24 11:27:55       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-GG4Z-78BD', 'json': {'name': '1235-NCF-FW1 - US-CA-SACR2'}}
+2023-07-24 11:27:55       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-GG4Z-78BD
+2023-07-24 11:27:56       meraki:     INFO > devices, updateDevice - 200 OK

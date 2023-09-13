@@ -1,0 +1,13 @@
+serial num,sourcePort,systemName,managementAddress,portId
+Q2HY-2L5A-2Y64,,,,
+,port4,US-LA-STGA1-SW2,10.100.86.2,11
+Q2HY-4R5K-XKRB,,,,
+,port4,US-SCL-AP01,10.100.49.3,b0:b8:67:c7:eb:c2
+Q2HY-4R5K-XKRB,,,,
+,port3,us-scl-swac0,10.100.49.2,25
+Q2HY-4R5K-XKRB,,,,
+,wan1,Hydrochem_Taft_Dow_test_router_2,12.163.210.30,bridge1/ether2
+Q2HY-4R5K-XKRB,,,,
+,port5,,,c8:5b:76:e1:42:b9
+Q2HY-4WYM-BU4W,,,,
+,port5,US-TX-CORP-SW2,10.100.77.2,4

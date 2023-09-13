@@ -1,0 +1,805 @@
+2023-06-15 10:22:53       meraki:     INFO > Meraki dashboard API session initialized with these parameters: {'version': '1.33.0', 'api_key': '************************************8658', 'base_url': 'https://api.meraki.com/api/v1', 'single_request_timeout': 60, 'certificate_path': '', 'requests_proxy': '', 'wait_on_rate_limit': True, 'nginx_429_retry_wait_time': 60, 'action_batch_retry_wait_time': 60, 'retry_4xx_error': False, 'retry_4xx_error_wait_time': 60, 'maximum_retries': 2, 'simulate': False, 'be_geo_id': None, 'caller': None, 'use_iterator_for_get_pages': False}
+2023-06-15 10:22:53       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-XBGX-9N6P', 'params': None}
+2023-06-15 10:22:53       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-XBGX-9N6P
+2023-06-15 10:22:54       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:22:54       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-XBGX-9N6P/lldpCdp', 'params': None}
+2023-06-15 10:22:54       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-XBGX-9N6P/lldpCdp
+2023-06-15 10:22:55       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:22:55       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2CK-L2GS-C2GG', 'params': None}
+2023-06-15 10:22:55       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-L2GS-C2GG
+2023-06-15 10:22:56       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:22:56       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2CK-L2GS-C2GG/lldpCdp', 'params': None}
+2023-06-15 10:22:56       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-L2GS-C2GG/lldpCdp
+2023-06-15 10:22:56       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:22:56       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-P5W5-VEFG', 'params': None}
+2023-06-15 10:22:56       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-P5W5-VEFG
+2023-06-15 10:22:57       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:22:57       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-P5W5-VEFG/lldpCdp', 'params': None}
+2023-06-15 10:22:57       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-P5W5-VEFG/lldpCdp
+2023-06-15 10:22:58       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:22:58       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-3MHF-ZV6B', 'params': None}
+2023-06-15 10:22:58       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-3MHF-ZV6B
+2023-06-15 10:22:58       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:22:58       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-3MHF-ZV6B/lldpCdp', 'params': None}
+2023-06-15 10:22:58       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-3MHF-ZV6B/lldpCdp
+2023-06-15 10:22:59       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:22:59       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2CK-3BWT-W6CM', 'params': None}
+2023-06-15 10:22:59       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-3BWT-W6CM
+2023-06-15 10:23:00       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:00       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2CK-3BWT-W6CM/lldpCdp', 'params': None}
+2023-06-15 10:23:00       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-3BWT-W6CM/lldpCdp
+2023-06-15 10:23:01       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:01       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-RKZJ-84Z5', 'params': None}
+2023-06-15 10:23:01       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-RKZJ-84Z5
+2023-06-15 10:23:02       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:02       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-RKZJ-84Z5/lldpCdp', 'params': None}
+2023-06-15 10:23:02       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-RKZJ-84Z5/lldpCdp
+2023-06-15 10:23:02       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:02       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2DD-GSXX-YTJ6', 'params': None}
+2023-06-15 10:23:02       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-GSXX-YTJ6
+2023-06-15 10:23:03       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:03       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2DD-GSXX-YTJ6/lldpCdp', 'params': None}
+2023-06-15 10:23:03       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-GSXX-YTJ6/lldpCdp
+2023-06-15 10:23:04       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:04       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2DD-A8ED-J645', 'params': None}
+2023-06-15 10:23:04       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-A8ED-J645
+2023-06-15 10:23:04       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:04       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2DD-A8ED-J645/lldpCdp', 'params': None}
+2023-06-15 10:23:04       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-A8ED-J645/lldpCdp
+2023-06-15 10:23:05       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:05       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2CK-WPD2-EJ7V', 'params': None}
+2023-06-15 10:23:05       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-WPD2-EJ7V
+2023-06-15 10:23:06       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:06       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2CK-WPD2-EJ7V/lldpCdp', 'params': None}
+2023-06-15 10:23:06       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-WPD2-EJ7V/lldpCdp
+2023-06-15 10:23:07       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:07       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-QN7M-PUUZ', 'params': None}
+2023-06-15 10:23:07       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-QN7M-PUUZ
+2023-06-15 10:23:07       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:07       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-QN7M-PUUZ/lldpCdp', 'params': None}
+2023-06-15 10:23:07       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-QN7M-PUUZ/lldpCdp
+2023-06-15 10:23:08       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:08       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-E9U6-HJE7', 'params': None}
+2023-06-15 10:23:08       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-E9U6-HJE7
+2023-06-15 10:23:09       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:09       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-E9U6-HJE7/lldpCdp', 'params': None}
+2023-06-15 10:23:09       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-E9U6-HJE7/lldpCdp
+2023-06-15 10:23:10       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:10       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-9WTE-49CH', 'params': None}
+2023-06-15 10:23:10       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-9WTE-49CH
+2023-06-15 10:23:10       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:11       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-9WTE-49CH/lldpCdp', 'params': None}
+2023-06-15 10:23:11       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-9WTE-49CH/lldpCdp
+2023-06-15 10:23:11       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:11       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2CK-YE9C-2C6S', 'params': None}
+2023-06-15 10:23:11       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-YE9C-2C6S
+2023-06-15 10:23:12       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:12       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2CK-YE9C-2C6S/lldpCdp', 'params': None}
+2023-06-15 10:23:12       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-YE9C-2C6S/lldpCdp
+2023-06-15 10:23:13       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:13       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2CK-TJ9X-NHML', 'params': None}
+2023-06-15 10:23:13       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-TJ9X-NHML
+2023-06-15 10:23:13       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:13       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2CK-TJ9X-NHML/lldpCdp', 'params': None}
+2023-06-15 10:23:13       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-TJ9X-NHML/lldpCdp
+2023-06-15 10:23:14       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:14       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2CK-ZJDE-622Y', 'params': None}
+2023-06-15 10:23:14       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-ZJDE-622Y
+2023-06-15 10:23:15       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:15       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2CK-ZJDE-622Y/lldpCdp', 'params': None}
+2023-06-15 10:23:15       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-ZJDE-622Y/lldpCdp
+2023-06-15 10:23:16       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:16       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2CK-ZSS2-KLUR', 'params': None}
+2023-06-15 10:23:16       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-ZSS2-KLUR
+2023-06-15 10:23:17       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:17       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2CK-ZSS2-KLUR/lldpCdp', 'params': None}
+2023-06-15 10:23:17       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-ZSS2-KLUR/lldpCdp
+2023-06-15 10:23:18       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:18       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2DD-Q2F5-T48E', 'params': None}
+2023-06-15 10:23:18       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-Q2F5-T48E
+2023-06-15 10:23:18       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:18       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2DD-Q2F5-T48E/lldpCdp', 'params': None}
+2023-06-15 10:23:18       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-Q2F5-T48E/lldpCdp
+2023-06-15 10:23:19       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:19       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2CK-7P3U-FYQ7', 'params': None}
+2023-06-15 10:23:19       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-7P3U-FYQ7
+2023-06-15 10:23:19       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:19       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2CK-7P3U-FYQ7/lldpCdp', 'params': None}
+2023-06-15 10:23:19       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-7P3U-FYQ7/lldpCdp
+2023-06-15 10:23:20       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:20       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2QD-HX9T-43FT', 'params': None}
+2023-06-15 10:23:20       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2QD-HX9T-43FT
+2023-06-15 10:23:21       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:21       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2QD-HX9T-43FT/lldpCdp', 'params': None}
+2023-06-15 10:23:21       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2QD-HX9T-43FT/lldpCdp
+2023-06-15 10:23:22       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:22       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2DD-PYJ8-CZ26', 'params': None}
+2023-06-15 10:23:22       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-PYJ8-CZ26
+2023-06-15 10:23:22       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:22       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2DD-PYJ8-CZ26/lldpCdp', 'params': None}
+2023-06-15 10:23:22       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-PYJ8-CZ26/lldpCdp
+2023-06-15 10:23:23       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:23       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-DTB9-6L2J', 'params': None}
+2023-06-15 10:23:23       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-DTB9-6L2J
+2023-06-15 10:23:24       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:24       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-DTB9-6L2J/lldpCdp', 'params': None}
+2023-06-15 10:23:24       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-DTB9-6L2J/lldpCdp
+2023-06-15 10:23:25       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:25       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2CK-SWZB-YENE', 'params': None}
+2023-06-15 10:23:25       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-SWZB-YENE
+2023-06-15 10:23:25       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:26       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2CK-SWZB-YENE/lldpCdp', 'params': None}
+2023-06-15 10:23:26       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-SWZB-YENE/lldpCdp
+2023-06-15 10:23:26       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:26       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-MYNX-YCSK', 'params': None}
+2023-06-15 10:23:26       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-MYNX-YCSK
+2023-06-15 10:23:27       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:27       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-MYNX-YCSK/lldpCdp', 'params': None}
+2023-06-15 10:23:27       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-MYNX-YCSK/lldpCdp
+2023-06-15 10:23:27       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:27       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-9N3T-R2HS', 'params': None}
+2023-06-15 10:23:27       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-9N3T-R2HS
+2023-06-15 10:23:28       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:28       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-9N3T-R2HS/lldpCdp', 'params': None}
+2023-06-15 10:23:28       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-9N3T-R2HS/lldpCdp
+2023-06-15 10:23:29       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:29       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2CK-YY2B-S4P9', 'params': None}
+2023-06-15 10:23:29       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-YY2B-S4P9
+2023-06-15 10:23:29       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:30       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2CK-YY2B-S4P9/lldpCdp', 'params': None}
+2023-06-15 10:23:30       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-YY2B-S4P9/lldpCdp
+2023-06-15 10:23:31       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:31       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-2DKH-8F26', 'params': None}
+2023-06-15 10:23:31       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-2DKH-8F26
+2023-06-15 10:23:32       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:32       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-2DKH-8F26/lldpCdp', 'params': None}
+2023-06-15 10:23:32       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-2DKH-8F26/lldpCdp
+2023-06-15 10:23:33       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:33       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-Y745-BYCV', 'params': None}
+2023-06-15 10:23:33       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-Y745-BYCV
+2023-06-15 10:23:33       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:33       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-Y745-BYCV/lldpCdp', 'params': None}
+2023-06-15 10:23:33       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-Y745-BYCV/lldpCdp
+2023-06-15 10:23:34       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:34       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-2D2G-PMLC', 'params': None}
+2023-06-15 10:23:34       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-2D2G-PMLC
+2023-06-15 10:23:35       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:35       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-2D2G-PMLC/lldpCdp', 'params': None}
+2023-06-15 10:23:35       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-2D2G-PMLC/lldpCdp
+2023-06-15 10:23:36       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:36       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-275K-FLP3', 'params': None}
+2023-06-15 10:23:36       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-275K-FLP3
+2023-06-15 10:23:36       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:36       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-275K-FLP3/lldpCdp', 'params': None}
+2023-06-15 10:23:36       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-275K-FLP3/lldpCdp
+2023-06-15 10:23:37       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:37       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-C7NF-A6NU', 'params': None}
+2023-06-15 10:23:37       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-C7NF-A6NU
+2023-06-15 10:23:38       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:38       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-C7NF-A6NU/lldpCdp', 'params': None}
+2023-06-15 10:23:38       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-C7NF-A6NU/lldpCdp
+2023-06-15 10:23:39       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:39       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-XSD2-9WSL', 'params': None}
+2023-06-15 10:23:39       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-XSD2-9WSL
+2023-06-15 10:23:39       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:39       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-XSD2-9WSL/lldpCdp', 'params': None}
+2023-06-15 10:23:39       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-XSD2-9WSL/lldpCdp
+2023-06-15 10:23:40       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:40       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-DBF5-676S', 'params': None}
+2023-06-15 10:23:40       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-DBF5-676S
+2023-06-15 10:23:41       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:41       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-DBF5-676S/lldpCdp', 'params': None}
+2023-06-15 10:23:41       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-DBF5-676S/lldpCdp
+2023-06-15 10:23:42       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:42       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-WJX2-JCTJ', 'params': None}
+2023-06-15 10:23:42       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-WJX2-JCTJ
+2023-06-15 10:23:42       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:43       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-WJX2-JCTJ/lldpCdp', 'params': None}
+2023-06-15 10:23:43       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-WJX2-JCTJ/lldpCdp
+2023-06-15 10:23:43       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:43       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-9YZY-7SB6', 'params': None}
+2023-06-15 10:23:43       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-9YZY-7SB6
+2023-06-15 10:23:44       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:44       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-9YZY-7SB6/lldpCdp', 'params': None}
+2023-06-15 10:23:44       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-9YZY-7SB6/lldpCdp
+2023-06-15 10:23:45       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:45       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-F47D-PANN', 'params': None}
+2023-06-15 10:23:45       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-F47D-PANN
+2023-06-15 10:23:45       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:45       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-F47D-PANN/lldpCdp', 'params': None}
+2023-06-15 10:23:45       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-F47D-PANN/lldpCdp
+2023-06-15 10:23:46       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:46       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2DD-NC46-GSYF', 'params': None}
+2023-06-15 10:23:46       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-NC46-GSYF
+2023-06-15 10:23:47       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:47       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2DD-NC46-GSYF/lldpCdp', 'params': None}
+2023-06-15 10:23:47       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-NC46-GSYF/lldpCdp
+2023-06-15 10:23:48       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:48       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-WENL-6ESM', 'params': None}
+2023-06-15 10:23:48       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-WENL-6ESM
+2023-06-15 10:23:48       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:48       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-WENL-6ESM/lldpCdp', 'params': None}
+2023-06-15 10:23:48       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-WENL-6ESM/lldpCdp
+2023-06-15 10:23:49       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:49       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-57CV-TVU6', 'params': None}
+2023-06-15 10:23:49       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-57CV-TVU6
+2023-06-15 10:23:50       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:50       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-57CV-TVU6/lldpCdp', 'params': None}
+2023-06-15 10:23:50       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-57CV-TVU6/lldpCdp
+2023-06-15 10:23:51       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:51       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-MGQJ-D53V', 'params': None}
+2023-06-15 10:23:51       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-MGQJ-D53V
+2023-06-15 10:23:51       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:51       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-MGQJ-D53V/lldpCdp', 'params': None}
+2023-06-15 10:23:51       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-MGQJ-D53V/lldpCdp
+2023-06-15 10:23:52       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:52       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-MDYB-CRZJ', 'params': None}
+2023-06-15 10:23:52       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-MDYB-CRZJ
+2023-06-15 10:23:52       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:52       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-MDYB-CRZJ/lldpCdp', 'params': None}
+2023-06-15 10:23:52       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-MDYB-CRZJ/lldpCdp
+2023-06-15 10:23:53       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:53       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-3TDH-8DTK', 'params': None}
+2023-06-15 10:23:53       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-3TDH-8DTK
+2023-06-15 10:23:54       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:54       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-3TDH-8DTK/lldpCdp', 'params': None}
+2023-06-15 10:23:54       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-3TDH-8DTK/lldpCdp
+2023-06-15 10:23:55       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:55       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2DD-6LHA-BAQA', 'params': None}
+2023-06-15 10:23:55       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-6LHA-BAQA
+2023-06-15 10:23:55       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:55       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2DD-6LHA-BAQA/lldpCdp', 'params': None}
+2023-06-15 10:23:55       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-6LHA-BAQA/lldpCdp
+2023-06-15 10:23:56       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:56       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2QD-56N4-79BJ', 'params': None}
+2023-06-15 10:23:56       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2QD-56N4-79BJ
+2023-06-15 10:23:57       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:57       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2QD-56N4-79BJ/lldpCdp', 'params': None}
+2023-06-15 10:23:57       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2QD-56N4-79BJ/lldpCdp
+2023-06-15 10:23:57       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:57       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-M95V-DLZ6', 'params': None}
+2023-06-15 10:23:57       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-M95V-DLZ6
+2023-06-15 10:23:58       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:23:58       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-M95V-DLZ6/lldpCdp', 'params': None}
+2023-06-15 10:23:58       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-M95V-DLZ6/lldpCdp
+2023-06-15 10:23:59       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:23:59       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-M949-RG5C', 'params': None}
+2023-06-15 10:23:59       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-M949-RG5C
+2023-06-15 10:24:00       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:00       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-M949-RG5C/lldpCdp', 'params': None}
+2023-06-15 10:24:00       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-M949-RG5C/lldpCdp
+2023-06-15 10:24:01       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:01       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-MAQU-GRYN', 'params': None}
+2023-06-15 10:24:01       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-MAQU-GRYN
+2023-06-15 10:24:01       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:01       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-MAQU-GRYN/lldpCdp', 'params': None}
+2023-06-15 10:24:01       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-MAQU-GRYN/lldpCdp
+2023-06-15 10:24:02       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:02       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-92NL-Z56U', 'params': None}
+2023-06-15 10:24:02       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-92NL-Z56U
+2023-06-15 10:24:03       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:03       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-92NL-Z56U/lldpCdp', 'params': None}
+2023-06-15 10:24:03       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-92NL-Z56U/lldpCdp
+2023-06-15 10:24:04       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:04       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-VDV4-NFCM', 'params': None}
+2023-06-15 10:24:04       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-VDV4-NFCM
+2023-06-15 10:24:04       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:04       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-VDV4-NFCM/lldpCdp', 'params': None}
+2023-06-15 10:24:04       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-VDV4-NFCM/lldpCdp
+2023-06-15 10:24:05       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:05       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-K6R9-HRZZ', 'params': None}
+2023-06-15 10:24:05       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-K6R9-HRZZ
+2023-06-15 10:24:06       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:06       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-K6R9-HRZZ/lldpCdp', 'params': None}
+2023-06-15 10:24:06       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-K6R9-HRZZ/lldpCdp
+2023-06-15 10:24:07       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:07       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-A8VJ-L6R5', 'params': None}
+2023-06-15 10:24:07       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-A8VJ-L6R5
+2023-06-15 10:24:08       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:08       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-A8VJ-L6R5/lldpCdp', 'params': None}
+2023-06-15 10:24:08       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-A8VJ-L6R5/lldpCdp
+2023-06-15 10:24:08       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:08       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-GYEM-2S2D', 'params': None}
+2023-06-15 10:24:08       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-GYEM-2S2D
+2023-06-15 10:24:09       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:09       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-GYEM-2S2D/lldpCdp', 'params': None}
+2023-06-15 10:24:09       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-GYEM-2S2D/lldpCdp
+2023-06-15 10:24:10       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:10       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2QD-7897-9TVT', 'params': None}
+2023-06-15 10:24:10       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2QD-7897-9TVT
+2023-06-15 10:24:11       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:11       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2QD-7897-9TVT/lldpCdp', 'params': None}
+2023-06-15 10:24:11       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2QD-7897-9TVT/lldpCdp
+2023-06-15 10:24:12       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:12       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2CK-QGPN-R7JN', 'params': None}
+2023-06-15 10:24:12       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-QGPN-R7JN
+2023-06-15 10:24:12       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:12       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2CK-QGPN-R7JN/lldpCdp', 'params': None}
+2023-06-15 10:24:12       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-QGPN-R7JN/lldpCdp
+2023-06-15 10:24:13       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:13       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-G6VV-6M9B', 'params': None}
+2023-06-15 10:24:13       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-G6VV-6M9B
+2023-06-15 10:24:14       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:14       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-G6VV-6M9B/lldpCdp', 'params': None}
+2023-06-15 10:24:14       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-G6VV-6M9B/lldpCdp
+2023-06-15 10:24:15       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:15       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-7C3W-KMMX', 'params': None}
+2023-06-15 10:24:15       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-7C3W-KMMX
+2023-06-15 10:24:16       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:16       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-7C3W-KMMX/lldpCdp', 'params': None}
+2023-06-15 10:24:16       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-7C3W-KMMX/lldpCdp
+2023-06-15 10:24:16       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:16       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2DD-DPU3-DXS8', 'params': None}
+2023-06-15 10:24:16       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-DPU3-DXS8
+2023-06-15 10:24:17       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:17       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2DD-DPU3-DXS8/lldpCdp', 'params': None}
+2023-06-15 10:24:17       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-DPU3-DXS8/lldpCdp
+2023-06-15 10:24:19       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:19       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-88MY-VNYF', 'params': None}
+2023-06-15 10:24:19       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-88MY-VNYF
+2023-06-15 10:24:20       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:20       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-88MY-VNYF/lldpCdp', 'params': None}
+2023-06-15 10:24:20       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-88MY-VNYF/lldpCdp
+2023-06-15 10:24:20       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:20       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-9HF7-ATLS', 'params': None}
+2023-06-15 10:24:20       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-9HF7-ATLS
+2023-06-15 10:24:21       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:21       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-9HF7-ATLS/lldpCdp', 'params': None}
+2023-06-15 10:24:21       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-9HF7-ATLS/lldpCdp
+2023-06-15 10:24:22       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:22       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-BN62-62UT', 'params': None}
+2023-06-15 10:24:22       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-BN62-62UT
+2023-06-15 10:24:23       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:23       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-BN62-62UT/lldpCdp', 'params': None}
+2023-06-15 10:24:23       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-BN62-62UT/lldpCdp
+2023-06-15 10:24:23       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:23       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-ZJ3Q-9ZFW', 'params': None}
+2023-06-15 10:24:23       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-ZJ3Q-9ZFW
+2023-06-15 10:24:24       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:24       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-ZJ3Q-9ZFW/lldpCdp', 'params': None}
+2023-06-15 10:24:24       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-ZJ3Q-9ZFW/lldpCdp
+2023-06-15 10:24:24       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:24       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-358U-EGMZ', 'params': None}
+2023-06-15 10:24:24       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-358U-EGMZ
+2023-06-15 10:24:25       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:25       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-358U-EGMZ/lldpCdp', 'params': None}
+2023-06-15 10:24:25       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-358U-EGMZ/lldpCdp
+2023-06-15 10:24:26       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:26       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2DD-FPXA-6U5V', 'params': None}
+2023-06-15 10:24:26       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-FPXA-6U5V
+2023-06-15 10:24:26       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:26       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2DD-FPXA-6U5V/lldpCdp', 'params': None}
+2023-06-15 10:24:26       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-FPXA-6U5V/lldpCdp
+2023-06-15 10:24:27       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:27       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2DD-NTJA-ZTTR', 'params': None}
+2023-06-15 10:24:27       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-NTJA-ZTTR
+2023-06-15 10:24:28       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:28       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2DD-NTJA-ZTTR/lldpCdp', 'params': None}
+2023-06-15 10:24:28       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-NTJA-ZTTR/lldpCdp
+2023-06-15 10:24:29       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:29       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-76AY-W7TV', 'params': None}
+2023-06-15 10:24:29       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-76AY-W7TV
+2023-06-15 10:24:29       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:29       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-76AY-W7TV/lldpCdp', 'params': None}
+2023-06-15 10:24:29       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-76AY-W7TV/lldpCdp
+2023-06-15 10:24:30       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:30       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-PD7M-VZHP', 'params': None}
+2023-06-15 10:24:30       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-PD7M-VZHP
+2023-06-15 10:24:31       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:31       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-PD7M-VZHP/lldpCdp', 'params': None}
+2023-06-15 10:24:31       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-PD7M-VZHP/lldpCdp
+2023-06-15 10:24:32       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:32       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2CK-SBEM-CLHG', 'params': None}
+2023-06-15 10:24:32       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-SBEM-CLHG
+2023-06-15 10:24:32       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:32       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2CK-SBEM-CLHG/lldpCdp', 'params': None}
+2023-06-15 10:24:32       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-SBEM-CLHG/lldpCdp
+2023-06-15 10:24:33       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:33       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2CK-N833-39UP', 'params': None}
+2023-06-15 10:24:33       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-N833-39UP
+2023-06-15 10:24:33       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:34       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2CK-N833-39UP/lldpCdp', 'params': None}
+2023-06-15 10:24:34       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-N833-39UP/lldpCdp
+2023-06-15 10:24:34       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:34       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-BBSX-LEF4', 'params': None}
+2023-06-15 10:24:34       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-BBSX-LEF4
+2023-06-15 10:24:35       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:35       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-BBSX-LEF4/lldpCdp', 'params': None}
+2023-06-15 10:24:35       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-BBSX-LEF4/lldpCdp
+2023-06-15 10:24:35       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:35       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-7E6B-DBT2', 'params': None}
+2023-06-15 10:24:35       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-7E6B-DBT2
+2023-06-15 10:24:36       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:36       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-7E6B-DBT2/lldpCdp', 'params': None}
+2023-06-15 10:24:36       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-7E6B-DBT2/lldpCdp
+2023-06-15 10:24:37       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:37       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-39SB-3FVJ', 'params': None}
+2023-06-15 10:24:37       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-39SB-3FVJ
+2023-06-15 10:24:38       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:38       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-39SB-3FVJ/lldpCdp', 'params': None}
+2023-06-15 10:24:38       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-39SB-3FVJ/lldpCdp
+2023-06-15 10:24:38       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:38       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2DD-6XTJ-ECW6', 'params': None}
+2023-06-15 10:24:38       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-6XTJ-ECW6
+2023-06-15 10:24:39       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:39       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2DD-6XTJ-ECW6/lldpCdp', 'params': None}
+2023-06-15 10:24:39       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-6XTJ-ECW6/lldpCdp
+2023-06-15 10:24:39       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:39       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-39L9-2CJ9', 'params': None}
+2023-06-15 10:24:39       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-39L9-2CJ9
+2023-06-15 10:24:40       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:40       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-39L9-2CJ9/lldpCdp', 'params': None}
+2023-06-15 10:24:40       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-39L9-2CJ9/lldpCdp
+2023-06-15 10:24:40       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:40       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-23A6-X2ZQ', 'params': None}
+2023-06-15 10:24:40       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-23A6-X2ZQ
+2023-06-15 10:24:41       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:41       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-23A6-X2ZQ/lldpCdp', 'params': None}
+2023-06-15 10:24:41       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-23A6-X2ZQ/lldpCdp
+2023-06-15 10:24:42       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:42       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-8SQB-2AA2', 'params': None}
+2023-06-15 10:24:42       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-8SQB-2AA2
+2023-06-15 10:24:42       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:42       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-8SQB-2AA2/lldpCdp', 'params': None}
+2023-06-15 10:24:43       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-8SQB-2AA2/lldpCdp
+2023-06-15 10:24:43       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:43       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-RKCH-YPZ4', 'params': None}
+2023-06-15 10:24:43       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-RKCH-YPZ4
+2023-06-15 10:24:44       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:44       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-RKCH-YPZ4/lldpCdp', 'params': None}
+2023-06-15 10:24:44       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-RKCH-YPZ4/lldpCdp
+2023-06-15 10:24:45       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:45       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-249N-VA7V', 'params': None}
+2023-06-15 10:24:45       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-249N-VA7V
+2023-06-15 10:24:45       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:45       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-249N-VA7V/lldpCdp', 'params': None}
+2023-06-15 10:24:45       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-249N-VA7V/lldpCdp
+2023-06-15 10:24:46       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:46       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-EVLK-6TQ7', 'params': None}
+2023-06-15 10:24:46       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-EVLK-6TQ7
+2023-06-15 10:24:46       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:47       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-EVLK-6TQ7/lldpCdp', 'params': None}
+2023-06-15 10:24:47       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-EVLK-6TQ7/lldpCdp
+2023-06-15 10:24:47       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:47       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-P8VG-XRBA', 'params': None}
+2023-06-15 10:24:47       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-P8VG-XRBA
+2023-06-15 10:24:48       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:48       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-P8VG-XRBA/lldpCdp', 'params': None}
+2023-06-15 10:24:48       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-P8VG-XRBA/lldpCdp
+2023-06-15 10:24:49       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:49       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2DD-KFFC-YXPU', 'params': None}
+2023-06-15 10:24:49       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-KFFC-YXPU
+2023-06-15 10:24:50       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:50       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2DD-KFFC-YXPU/lldpCdp', 'params': None}
+2023-06-15 10:24:50       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-KFFC-YXPU/lldpCdp
+2023-06-15 10:24:50       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:50       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-EHHE-9QTH', 'params': None}
+2023-06-15 10:24:50       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-EHHE-9QTH
+2023-06-15 10:24:51       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:51       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-EHHE-9QTH/lldpCdp', 'params': None}
+2023-06-15 10:24:51       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-EHHE-9QTH/lldpCdp
+2023-06-15 10:24:52       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:52       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-LZZZ-9BW2', 'params': None}
+2023-06-15 10:24:52       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-LZZZ-9BW2
+2023-06-15 10:24:53       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:53       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-LZZZ-9BW2/lldpCdp', 'params': None}
+2023-06-15 10:24:53       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-LZZZ-9BW2/lldpCdp
+2023-06-15 10:24:54       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:54       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2DD-N7K7-ZMW4', 'params': None}
+2023-06-15 10:24:54       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-N7K7-ZMW4
+2023-06-15 10:24:54       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:54       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2DD-N7K7-ZMW4/lldpCdp', 'params': None}
+2023-06-15 10:24:54       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-N7K7-ZMW4/lldpCdp
+2023-06-15 10:24:55       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:55       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-3CNY-YJY6', 'params': None}
+2023-06-15 10:24:55       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-3CNY-YJY6
+2023-06-15 10:24:56       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:56       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-3CNY-YJY6/lldpCdp', 'params': None}
+2023-06-15 10:24:56       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-3CNY-YJY6/lldpCdp
+2023-06-15 10:24:57       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:57       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-CL2H-R29T', 'params': None}
+2023-06-15 10:24:57       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-CL2H-R29T
+2023-06-15 10:24:58       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:58       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-CL2H-R29T/lldpCdp', 'params': None}
+2023-06-15 10:24:58       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-CL2H-R29T/lldpCdp
+2023-06-15 10:24:58       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:24:58       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2DD-M6WN-D3LP', 'params': None}
+2023-06-15 10:24:58       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-M6WN-D3LP
+2023-06-15 10:24:59       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:24:59       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2DD-M6WN-D3LP/lldpCdp', 'params': None}
+2023-06-15 10:24:59       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-M6WN-D3LP/lldpCdp
+2023-06-15 10:25:00       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:00       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-LMAQ-923P', 'params': None}
+2023-06-15 10:25:00       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-LMAQ-923P
+2023-06-15 10:25:01       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:01       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-LMAQ-923P/lldpCdp', 'params': None}
+2023-06-15 10:25:01       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-LMAQ-923P/lldpCdp
+2023-06-15 10:25:01       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:01       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2DD-9RKK-P4LE', 'params': None}
+2023-06-15 10:25:01       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-9RKK-P4LE
+2023-06-15 10:25:02       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:02       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2DD-9RKK-P4LE/lldpCdp', 'params': None}
+2023-06-15 10:25:02       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-9RKK-P4LE/lldpCdp
+2023-06-15 10:25:03       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:03       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2DD-637T-FJFK', 'params': None}
+2023-06-15 10:25:03       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-637T-FJFK
+2023-06-15 10:25:04       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:04       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2DD-637T-FJFK/lldpCdp', 'params': None}
+2023-06-15 10:25:04       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-637T-FJFK/lldpCdp
+2023-06-15 10:25:04       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:04       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-LP83-RATS', 'params': None}
+2023-06-15 10:25:04       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-LP83-RATS
+2023-06-15 10:25:05       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:05       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-LP83-RATS/lldpCdp', 'params': None}
+2023-06-15 10:25:05       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-LP83-RATS/lldpCdp
+2023-06-15 10:25:06       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:06       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-3BHT-WDXA', 'params': None}
+2023-06-15 10:25:06       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-3BHT-WDXA
+2023-06-15 10:25:07       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:07       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-3BHT-WDXA/lldpCdp', 'params': None}
+2023-06-15 10:25:07       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-3BHT-WDXA/lldpCdp
+2023-06-15 10:25:07       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:07       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-URS2-5F3T', 'params': None}
+2023-06-15 10:25:07       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-URS2-5F3T
+2023-06-15 10:25:08       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:08       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-URS2-5F3T/lldpCdp', 'params': None}
+2023-06-15 10:25:08       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-URS2-5F3T/lldpCdp
+2023-06-15 10:25:09       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:09       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-LR34-AU74', 'params': None}
+2023-06-15 10:25:09       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-LR34-AU74
+2023-06-15 10:25:10       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:10       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-LR34-AU74/lldpCdp', 'params': None}
+2023-06-15 10:25:10       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-LR34-AU74/lldpCdp
+2023-06-15 10:25:10       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:10       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-3D2F-C5TD', 'params': None}
+2023-06-15 10:25:10       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-3D2F-C5TD
+2023-06-15 10:25:11       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:11       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-3D2F-C5TD/lldpCdp', 'params': None}
+2023-06-15 10:25:11       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-3D2F-C5TD/lldpCdp
+2023-06-15 10:25:13       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:13       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2QD-U3XX-KZH8', 'params': None}
+2023-06-15 10:25:13       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2QD-U3XX-KZH8
+2023-06-15 10:25:13       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:13       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2QD-U3XX-KZH8/lldpCdp', 'params': None}
+2023-06-15 10:25:13       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2QD-U3XX-KZH8/lldpCdp
+2023-06-15 10:25:14       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:14       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-DDAM-CQKS', 'params': None}
+2023-06-15 10:25:14       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-DDAM-CQKS
+2023-06-15 10:25:15       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:15       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-DDAM-CQKS/lldpCdp', 'params': None}
+2023-06-15 10:25:15       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-DDAM-CQKS/lldpCdp
+2023-06-15 10:25:16       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:16       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2DD-9T9A-N6SW', 'params': None}
+2023-06-15 10:25:16       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-9T9A-N6SW
+2023-06-15 10:25:16       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:17       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2DD-9T9A-N6SW/lldpCdp', 'params': None}
+2023-06-15 10:25:17       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-9T9A-N6SW/lldpCdp
+2023-06-15 10:25:17       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:17       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2DD-DD7F-G2R6', 'params': None}
+2023-06-15 10:25:17       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-DD7F-G2R6
+2023-06-15 10:25:18       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:18       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2DD-DD7F-G2R6/lldpCdp', 'params': None}
+2023-06-15 10:25:18       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-DD7F-G2R6/lldpCdp
+2023-06-15 10:25:19       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:19       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-RURU-RBYG', 'params': None}
+2023-06-15 10:25:19       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-RURU-RBYG
+2023-06-15 10:25:19       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:19       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-RURU-RBYG/lldpCdp', 'params': None}
+2023-06-15 10:25:19       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-RURU-RBYG/lldpCdp
+2023-06-15 10:25:20       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:20       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-SPHU-AJRV', 'params': None}
+2023-06-15 10:25:20       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-SPHU-AJRV
+2023-06-15 10:25:21       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:21       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-SPHU-AJRV/lldpCdp', 'params': None}
+2023-06-15 10:25:21       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-SPHU-AJRV/lldpCdp
+2023-06-15 10:25:22       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:22       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-MJHX-4WCN', 'params': None}
+2023-06-15 10:25:22       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-MJHX-4WCN
+2023-06-15 10:25:23       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:23       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-MJHX-4WCN/lldpCdp', 'params': None}
+2023-06-15 10:25:23       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-MJHX-4WCN/lldpCdp
+2023-06-15 10:25:24       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:24       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2DD-D8SS-2UUP', 'params': None}
+2023-06-15 10:25:24       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-D8SS-2UUP
+2023-06-15 10:25:25       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:25       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2DD-D8SS-2UUP/lldpCdp', 'params': None}
+2023-06-15 10:25:25       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2DD-D8SS-2UUP/lldpCdp
+2023-06-15 10:25:26       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:26       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2CK-FM49-C9JT', 'params': None}
+2023-06-15 10:25:26       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-FM49-C9JT
+2023-06-15 10:25:26       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:26       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2CK-FM49-C9JT/lldpCdp', 'params': None}
+2023-06-15 10:25:26       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-FM49-C9JT/lldpCdp
+2023-06-15 10:25:27       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:27       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-39RR-M3EQ', 'params': None}
+2023-06-15 10:25:27       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-39RR-M3EQ
+2023-06-15 10:25:28       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:28       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-39RR-M3EQ/lldpCdp', 'params': None}
+2023-06-15 10:25:28       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-39RR-M3EQ/lldpCdp
+2023-06-15 10:25:29       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:29       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2QD-YQM6-WZHE', 'params': None}
+2023-06-15 10:25:29       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2QD-YQM6-WZHE
+2023-06-15 10:25:29       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:29       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2QD-YQM6-WZHE/lldpCdp', 'params': None}
+2023-06-15 10:25:29       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2QD-YQM6-WZHE/lldpCdp
+2023-06-15 10:25:30       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:30       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2CK-SHP6-SNGP', 'params': None}
+2023-06-15 10:25:30       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-SHP6-SNGP
+2023-06-15 10:25:31       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:31       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2CK-SHP6-SNGP/lldpCdp', 'params': None}
+2023-06-15 10:25:31       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-SHP6-SNGP/lldpCdp
+2023-06-15 10:25:31       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:31       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2CK-Q5V4-K8LW', 'params': None}
+2023-06-15 10:25:31       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-Q5V4-K8LW
+2023-06-15 10:25:32       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:32       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2CK-Q5V4-K8LW/lldpCdp', 'params': None}
+2023-06-15 10:25:32       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-Q5V4-K8LW/lldpCdp
+2023-06-15 10:25:33       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:33       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2CK-Z28U-KRNF', 'params': None}
+2023-06-15 10:25:33       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-Z28U-KRNF
+2023-06-15 10:25:33       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:33       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2CK-Z28U-KRNF/lldpCdp', 'params': None}
+2023-06-15 10:25:33       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-Z28U-KRNF/lldpCdp
+2023-06-15 10:25:34       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:34       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2CK-X84C-ZX3L', 'params': None}
+2023-06-15 10:25:34       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-X84C-ZX3L
+2023-06-15 10:25:35       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:35       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2CK-X84C-ZX3L/lldpCdp', 'params': None}
+2023-06-15 10:25:35       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2CK-X84C-ZX3L/lldpCdp
+2023-06-15 10:25:36       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:36       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-5WZ9-Q5GV', 'params': None}
+2023-06-15 10:25:36       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-5WZ9-Q5GV
+2023-06-15 10:25:36       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:36       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-5WZ9-Q5GV/lldpCdp', 'params': None}
+2023-06-15 10:25:36       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-5WZ9-Q5GV/lldpCdp
+2023-06-15 10:25:37       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:37       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-2P58-SV2N', 'params': None}
+2023-06-15 10:25:37       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-2P58-SV2N
+2023-06-15 10:25:37       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:37       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-2P58-SV2N/lldpCdp', 'params': None}
+2023-06-15 10:25:37       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-2P58-SV2N/lldpCdp
+2023-06-15 10:25:38       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:38       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-3E9A-NPMJ', 'params': None}
+2023-06-15 10:25:38       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-3E9A-NPMJ
+2023-06-15 10:25:39       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:39       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-3E9A-NPMJ/lldpCdp', 'params': None}
+2023-06-15 10:25:39       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-3E9A-NPMJ/lldpCdp
+2023-06-15 10:25:40       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:40       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-3E3Q-M5KU', 'params': None}
+2023-06-15 10:25:40       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-3E3Q-M5KU
+2023-06-15 10:25:40       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:40       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-3E3Q-M5KU/lldpCdp', 'params': None}
+2023-06-15 10:25:40       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-3E3Q-M5KU/lldpCdp
+2023-06-15 10:25:41       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:41       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-6AXP-LWPM', 'params': None}
+2023-06-15 10:25:41       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-6AXP-LWPM
+2023-06-15 10:25:41       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:41       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-6AXP-LWPM/lldpCdp', 'params': None}
+2023-06-15 10:25:41       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-6AXP-LWPM/lldpCdp
+2023-06-15 10:25:42       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:42       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-3E7P-RKB8', 'params': None}
+2023-06-15 10:25:42       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-3E7P-RKB8
+2023-06-15 10:25:43       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:43       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-3E7P-RKB8/lldpCdp', 'params': None}
+2023-06-15 10:25:43       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-3E7P-RKB8/lldpCdp
+2023-06-15 10:25:43       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:43       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-5C7M-WFZT', 'params': None}
+2023-06-15 10:25:43       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-5C7M-WFZT
+2023-06-15 10:25:44       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:44       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-5C7M-WFZT/lldpCdp', 'params': None}
+2023-06-15 10:25:44       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-5C7M-WFZT/lldpCdp
+2023-06-15 10:25:45       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:45       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-HTR6-GNK6', 'params': None}
+2023-06-15 10:25:45       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-HTR6-GNK6
+2023-06-15 10:25:45       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:45       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-HTR6-GNK6/lldpCdp', 'params': None}
+2023-06-15 10:25:45       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-HTR6-GNK6/lldpCdp
+2023-06-15 10:25:46       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:46       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2QD-TMAT-GC2F', 'params': None}
+2023-06-15 10:25:46       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2QD-TMAT-GC2F
+2023-06-15 10:25:47       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:47       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2QD-TMAT-GC2F/lldpCdp', 'params': None}
+2023-06-15 10:25:47       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2QD-TMAT-GC2F/lldpCdp
+2023-06-15 10:25:48       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:48       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-QVBK-LQLL', 'params': None}
+2023-06-15 10:25:48       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-QVBK-LQLL
+2023-06-15 10:25:48       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:48       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-QVBK-LQLL/lldpCdp', 'params': None}
+2023-06-15 10:25:48       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-QVBK-LQLL/lldpCdp
+2023-06-15 10:25:49       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:49       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-RUQS-Z44U', 'params': None}
+2023-06-15 10:25:49       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-RUQS-Z44U
+2023-06-15 10:25:49       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:49       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-RUQS-Z44U/lldpCdp', 'params': None}
+2023-06-15 10:25:49       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-RUQS-Z44U/lldpCdp
+2023-06-15 10:25:50       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:50       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-PMRD-GZFN', 'params': None}
+2023-06-15 10:25:50       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-PMRD-GZFN
+2023-06-15 10:25:51       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:51       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-PMRD-GZFN/lldpCdp', 'params': None}
+2023-06-15 10:25:51       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-PMRD-GZFN/lldpCdp
+2023-06-15 10:25:52       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:52       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-2KMA-3WQT', 'params': None}
+2023-06-15 10:25:52       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-2KMA-3WQT
+2023-06-15 10:25:52       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:52       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-2KMA-3WQT/lldpCdp', 'params': None}
+2023-06-15 10:25:52       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-2KMA-3WQT/lldpCdp
+2023-06-15 10:25:53       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:53       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2QD-UFPZ-M2X8', 'params': None}
+2023-06-15 10:25:53       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2QD-UFPZ-M2X8
+2023-06-15 10:25:54       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:54       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2QD-UFPZ-M2X8/lldpCdp', 'params': None}
+2023-06-15 10:25:54       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2QD-UFPZ-M2X8/lldpCdp
+2023-06-15 10:25:55       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:55       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-BYAE-F893', 'params': None}
+2023-06-15 10:25:55       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-BYAE-F893
+2023-06-15 10:25:55       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:55       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-BYAE-F893/lldpCdp', 'params': None}
+2023-06-15 10:25:55       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-BYAE-F893/lldpCdp
+2023-06-15 10:25:56       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:56       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-VWJJ-FPPE', 'params': None}
+2023-06-15 10:25:56       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-VWJJ-FPPE
+2023-06-15 10:25:57       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:57       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-VWJJ-FPPE/lldpCdp', 'params': None}
+2023-06-15 10:25:57       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-VWJJ-FPPE/lldpCdp
+2023-06-15 10:25:58       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:58       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-SCUQ-HZB5', 'params': None}
+2023-06-15 10:25:58       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-SCUQ-HZB5
+2023-06-15 10:25:59       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:25:59       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-SCUQ-HZB5/lldpCdp', 'params': None}
+2023-06-15 10:25:59       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-SCUQ-HZB5/lldpCdp
+2023-06-15 10:25:59       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:25:59       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-6LWD-HKEE', 'params': None}
+2023-06-15 10:25:59       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-6LWD-HKEE
+2023-06-15 10:26:00       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:26:00       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-6LWD-HKEE/lldpCdp', 'params': None}
+2023-06-15 10:26:00       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-6LWD-HKEE/lldpCdp
+2023-06-15 10:26:01       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:26:01       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-2RC2-4TCC', 'params': None}
+2023-06-15 10:26:01       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-2RC2-4TCC
+2023-06-15 10:26:02       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:26:02       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-2RC2-4TCC/lldpCdp', 'params': None}
+2023-06-15 10:26:02       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-2RC2-4TCC/lldpCdp
+2023-06-15 10:26:02       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:26:02       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-2EUK-5ZNG', 'params': None}
+2023-06-15 10:26:02       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-2EUK-5ZNG
+2023-06-15 10:26:03       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:26:03       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-2EUK-5ZNG/lldpCdp', 'params': None}
+2023-06-15 10:26:03       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-2EUK-5ZNG/lldpCdp
+2023-06-15 10:26:04       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:26:04       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2QD-8GV5-MYB5', 'params': None}
+2023-06-15 10:26:04       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2QD-8GV5-MYB5
+2023-06-15 10:26:06       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:26:06       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2QD-8GV5-MYB5/lldpCdp', 'params': None}
+2023-06-15 10:26:06       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2QD-8GV5-MYB5/lldpCdp
+2023-06-15 10:26:06       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:26:06       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2KD-3F4G-XA8Y', 'params': None}
+2023-06-15 10:26:06       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-3F4G-XA8Y
+2023-06-15 10:26:07       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:26:07       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2KD-3F4G-XA8Y/lldpCdp', 'params': None}
+2023-06-15 10:26:07       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2KD-3F4G-XA8Y/lldpCdp
+2023-06-15 10:26:07       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:26:07       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-5NRA-GECN', 'params': None}
+2023-06-15 10:26:07       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-5NRA-GECN
+2023-06-15 10:26:08       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:26:08       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-5NRA-GECN/lldpCdp', 'params': None}
+2023-06-15 10:26:08       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-5NRA-GECN/lldpCdp
+2023-06-15 10:26:09       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:26:09       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-5UDL-RYM5', 'params': None}
+2023-06-15 10:26:09       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-5UDL-RYM5
+2023-06-15 10:26:10       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:26:10       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-5UDL-RYM5/lldpCdp', 'params': None}
+2023-06-15 10:26:10       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-5UDL-RYM5/lldpCdp
+2023-06-15 10:26:10       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:26:10       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-5HLM-ALUD', 'params': None}
+2023-06-15 10:26:10       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-5HLM-ALUD
+2023-06-15 10:26:11       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:26:11       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-5HLM-ALUD/lldpCdp', 'params': None}
+2023-06-15 10:26:11       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-5HLM-ALUD/lldpCdp
+2023-06-15 10:26:12       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK
+2023-06-15 10:26:12       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'getDevice', 'method': 'GET', 'url': '/devices/Q2GD-5RMY-TXVJ', 'params': None}
+2023-06-15 10:26:12       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-5RMY-TXVJ
+2023-06-15 10:26:13       meraki:     INFO > devices, getDevice - 200 OK
+2023-06-15 10:26:13       meraki:    DEBUG > {'tags': ['devices', 'monitor', 'lldpCdp'], 'operation': 'getDeviceLldpCdp', 'method': 'GET', 'url': '/devices/Q2GD-5RMY-TXVJ/lldpCdp', 'params': None}
+2023-06-15 10:26:13       meraki:     INFO > GET https://api.meraki.com/api/v1/devices/Q2GD-5RMY-TXVJ/lldpCdp
+2023-06-15 10:26:13       meraki:     INFO > devices, getDeviceLldpCdp - 200 OK

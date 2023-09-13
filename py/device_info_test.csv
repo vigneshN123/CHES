@@ -1,0 +1,370 @@
+lat,lng,address,serial,mac,wan1Ip,wan2Ip,notes,url,networkId,tags,name,model,firmware,floorPlanId
+30.24948,-91.08245,"3990 E Hwy 30, St. Gabriel, LA 70776",Q2HY-2L5A-2Y64,ac:17:c8:5d:1b:f9,,12.246.126.66,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 832-712-2625
+IMEI: 358030090051553 
+ICCID: 89148000004692025235 ",https://n585.meraki.com/00209-Prairievil/n/sOzrIddc/manage/nodes/new_list/189218145770489,N_636696397319543641,[],00209-PRL-FW0 - US-LA-STGA1,MX67C-NA,wired-18-1-07,
+29.98438,-90.45388,"355 Hwy 3142, Hahnville, LA, 70057",Q2HY-4R5K-XKRB,ac:17:c8:5d:21:7f,,12.163.210.26,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 832-712-9923
+IMEI: 358030090027645 
+ICCID: 89148000004692025144 ",https://n585.meraki.com/00105-DOW-St.-Ch/n/gOFQiadc/manage/nodes/new_list/189218145771903,N_636696397319543640,[],00105-SCL-FW0 - US-LA-TAFT1,MX67C-NA,wired-18-1-07,
+27.78716,-97.48266,"122 Vermont Street
+Corpus Christi, TX 78409",Q2HY-4WYM-BU4W,ac:17:c8:5d:21:ef,70.117.60.226,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 2GB
+Number: 281-757-6382
+IMEI: 358030090024949 
+ICCID: 89148000004203813715 ",https://n585.meraki.com/00134-Corpus-Chr/n/qD_6qcdc/manage/nodes/new_list/189218145772015,N_636696397319541884,[],00134-CCX-FW0,MX67C-NA,wired-18-1-07,
+28.45899,-98.18566,"301 Le Roy St, Three Rivers, TX 78071",Q2HY-4ZG4-GGSS,ac:17:c8:5d:22:20,192.168.0.116,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 2GB
+Number: 281-731-6745
+IMEI: 358030090024980 
+ICCID: 89148000004203813608 ",https://n585.meraki.com/00134-Three-Rive/n/MA6KZddc/manage/nodes/new_list/189218145772064,N_636696397319542729,[],00134-CCX-FW1,MX67C-NA,wired-18-1-07,
+41.12781,-104.78697,"2700 East 5th St.
+Cheyenne, WY 82007",Q2HY-5CAB-ATYD,ac:17:c8:5d:22:cf,192.168.0.119,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 281-309-6681
+IMEI: 358030090024709
+ICCID: 89148000004692024196",https://n585.meraki.com/00047-Cheyenne/n/QKvP4cdc/manage/nodes/new_list/189218145772239,N_636696397319543937,[],00047-CHW-FW0,MX67C-NA,wired-18-1-07,
+29.63144,-96.90365,"4437 S. Hwy 77
+Rockdale, TX 76567",Q2HY-5CS3-TZ5Q,ac:17:c8:5d:22:e4,12.169.109.226,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 281-387-2940
+IMEI: 358030090024667 
+ICCID: 89148000004692235651 ",https://n585.meraki.com/00115-Rockdale/n/yjTyxbdc/manage/nodes/new_list/189218145772260,N_636696397319543255,[],00115-RDX-FW0 - US-TX-ROCK1,MX67C-NA,wired-18-1-07,
+37.4180951010362,-122.098531723022,,Q2HY-66WH-5T4M,ac:17:c8:5d:03:64,10.30.186.96,,,https://n585.meraki.com/01143-So-Cal-Tan/n/3FG1bcdc/manage/nodes/new_list/189218145764196,N_636696397319541443,[],1143-CTC-FW0,MX67C-NA,wired-18-1-07,
+37.4180951010362,-122.098531723022,,Q2HY-6JZK-3GUB,ac:17:c8:5d:26:1e,65.157.77.132,,,https://n585.meraki.com/01114-Pueblo-Wes/n/lMyYfddc/manage/nodes/new_list/189218145773086,L_636696397319508634,[],01114-SOC-FW0,MX67C-NA,wired-18-1-07,
+32.4661,-94.66712,"3800 Creekwood Circle, Longview, TX, 75602",Q2HY-6QVH-ZZ32,ac:17:c8:5d:26:b1,,10.17.86.7,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 2GB
+Number: 281-726-6047
+IMEI: 358030090029732 
+ICCID: 89148000004692024998 ",https://n585.meraki.com/00112-Eastman/n/ggdG_ddc/manage/nodes/new_list/189218145773233,N_636696397319544320,[],00112-TEC-FW0,MX67C-NA,wired-18-1-07,
+28.615,-96.62609,"1120 Marcus Navarro
+Port Lavaca, TX 77979",Q2HY-6RC4-L7UJ,ac:17:c8:5d:26:b8,24.116.194.146,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 281-507-5543
+IMEI: 358030090029740 
+ICCID: 89148000004692024964 ",https://n585.meraki.com/00124-Port-Lavac/n/K968zbdc/manage/nodes/new_list/189218145773240,N_636696397319542332,[],00124-PLX-FW0,MX67C-NA,wired-18-1-07,
+37.4180951010362,-122.098531723022,,Q2HY-6W8F-3RJM,ac:17:c8:5d:26:fe,206.83.24.95,,"1051 W. North Ave
+Flora, IL 62839",https://n585.meraki.com/00214-US-IL-FLOR/n/592EOadc/manage/nodes/new_list/189218145773310,N_636696397319544321,[],00214-US-IL-FLOR1-FW1,MX67C-NA,wired-18-1-07,
+39.72571,-74.86465,"900 Industrial Dr, Waterford Works, NJ, 08089",Q2HY-7424-3J54,ac:17:c8:5d:27:83,,71.168.222.26,,https://n585.meraki.com/01706-PHI-Waterf/n/un1Szcdc/manage/nodes/new_list/189218145773443,N_636696397319543920,[],1706-PHI-FW0 - US-NJ-WATE1,MX67C-NA,wired-18-1-07,
+32.4661,-94.66712,"3800 Creekwood Cir.
+Longview, TX 75602",Q2HY-77C3-84SZ,ac:17:c8:5d:27:d0,206.255.245.148,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 281-309-6692
+IMEI: 358030090029021 
+ICCID: 89148000004692024618 ",https://n585.meraki.com/00112-Longview/n/cnIXbadc/manage/nodes/new_list/189218145773520,N_636696397319543938,[],00112-LVX-FW0,MX67C-NA,wired-18-1-07,
+37.4180951010362,-122.098531723022,,Q2HY-7E7K-D5DW,ac:17:c8:5d:28:71,,12.218.28.242,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 281-743-0688
+IMEI: 358030090079794
+ICCID: 89148000004692236139",https://n585.meraki.com/00358-Monroe/n/QXg56adc/manage/nodes/new_list/189218145773681,N_636696397319542859,[],00358-DTE-FW0,MX67C-NA,wired-18-1-07,
+29.65848,-95.03625,"602 South 16th Street, La Porte, TX, 77571",Q2HY-7F8A-BDY3,ac:17:c8:5d:28:86,50.208.94.53,192.168.165.225,,https://n585.meraki.com/00101-La-Porte-/n/akrDYbdc/manage/nodes/new_list/189218145773702,N_636696397319541848,[],00101-LTX-FW0,MX67C-NA,wired-18-1-07,
+38.01829,-121.92456,"P.O. Box 1859, Pittsburg, CA, 94565",Q2HY-7K3U-R7F3,ac:17:c8:5d:28:f6,,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 281-627-9121
+IMEI: 358030090077376
+ICCID: 89148000004692025201",https://n585.meraki.com/00028-Pittsburg/n/LZEiuadc/manage/nodes/new_list/189218145773814,N_636696397319544318,[],00028-PCA-FW0,MX67C-NA,wired-18-1-07,
+37.4180951010362,-122.098531723022,,Q2HY-7KM5-WPKL,ac:17:c8:5d:29:0b,10.100.74.45,,,https://n585.meraki.com/01708-CES-Chevro/n/wEtDBadc/manage/nodes/new_list/189218145773835,N_636696397319542738,['recently-added'],01708-CES-FW0,MX67C-NA,wired-18-1-07,
+40.88082,-81.56779,"11580 Lafayette Drive N.W.
+Canal Fulton, OH 44614",Q2HY-7KZ2-CGYP,ac:17:c8:5d:29:12,12.236.220.42,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 346-208-3698
+IMEI: 358030090076766
+ICCID: 89148000004692024493",https://n585.meraki.com/00926-Canal-Fult/n/uTsGKddc/manage/nodes/new_list/189218145773842,N_636696397319544670,[],US-OH-CANA1-FW1,MX67C-NA,wired-18-1-07,
+37.4180951010362,-122.098531723022,,Q2HY-7VG3-G2GQ,ac:17:c8:5d:29:f9,173.217.246.109,12.157.179.238,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 346-324-1591
+IMEI: 358030090048690
+ICCID: 89148000001377453765",https://n585.meraki.com/01106-Westlake-a/n/-puI3adc/manage/nodes/new_list/189218145774073,L_636696397319508632,['recently-added'],00311-AKY-FW0,MX67C-NA,wired-18-1-07,
+37.4180951010362,-122.098531723022,,Q2HY-7YCT-9UXN,ac:17:c8:5d:2a:3f,,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 713-725-6499
+IMEI: 358030090054391
+ICCID: 89148000004203813699",https://n585.meraki.com/00209-Denka-appl/n/-CaX8adc/manage/nodes/new_list/189218145774143,L_636696397319512682,[],00209-LAG-FW3,MX67C-NA,wired-18-1-07,
+28.615,-96.62609,"P.O. Box 186, Port Lavaca, TX, 77979",Q2HY-92JV-XWGT,ac:17:c8:5d:2c:fb,104.243.14.201,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 281-731-5700
+IMEI: 358030090058855
+ICCID: 89148000004692235669",https://n585.meraki.com/00124-Seadrift-a/n/9tHkwddc/manage/nodes/new_list/189218145774843,L_636696397319508582,['recently-added'],00124-SDX-FW0,MX67C-NA,wired-18-1-07,
+29.73179,-95.09929,"2300 Tidal Rd.
+Deer Park, TX 77536",Q2HY-9H9K-B3G9,ac:17:c8:5d:2e:59,207.91.139.66,12.9.50.154,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 281-628-4105
+IMEI: 358030090078879 
+ICCID: 89148000004692025276 ",https://n585.meraki.com/00145-DOW-Deer-P/n/T5X81cdc/manage/nodes/new_list/189218145775193,N_636696397319543933,[],00145-HDX-FW0,MX67C-NA,wired-18-1-07,
+41.11249,-80.72252,"428 Thacher Lane, Youngstown, OH, 44515",Q2HY-9JT7-L7DL,ac:17:c8:5d:2e:60,12.230.171.218,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 346-242-6662
+IMEI: 358030090078945 
+ICCID: 89148000001377453732 ",https://n585.meraki.com/00022-Youngstown/n/zYwd0bdc/manage/nodes/new_list/189218145775200,N_636696397319541913,[],00022-YOH-FW0,MX67C-NA,wired-18-1-07,
+29.70743,-95.13478,"620 Howard Drive, Deer Park, TX, 77536",Q2HY-9L5Q-4QPX,ac:17:c8:5d:2e:6e,96.83.54.89,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 346-293-5451
+IMEI: 358030090079687
+ICCID: 89148000003815334995
+",https://n585.meraki.com/00015-Chemical-D/n/dtm5Nbdc/manage/nodes/new_list/189218145775214,N_636696397319541770,[],0015-DEX-FW0,MX67C-NA,wired-18-1-07,
+29.01898,-95.39301,"505 Moffet St, Clute, TX 77531",Q2HY-9N6L-SPYV,ac:17:c8:5d:2e:8a,173.11.192.137,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 2GB
+Number: 281-309-6637
+IMEI: 358030090078937
+ICCID: 89148000004692025169",https://n585.meraki.com/00014-Freeport-C/n/AeI-Tcdc/manage/nodes/new_list/189218145775242,N_636696397319543934,[],0014-FDX-FW0 - US-TX-CLUT4-FW0,MX67C-NA,wired-18-1-07,
+37.4180951010362,-122.098531723022,,Q2HY-9P32-ZURB,ac:17:c8:5d:2e:a6,74.94.236.65,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 281-743-2899
+IMEI: 358030090068979
+ICCID: 89148000004203813681
+",https://n585.meraki.com/00354-Dearborn/n/A235lddc/manage/nodes/new_list/189218145775270,N_636696397319542860,[],00354-UPN-FW0,MX67C-NA,wired-18-1-07,
+28.00695,-82.14357,"2004 Wood Court Suite 1, Plant City, FL, 33563",Q2HY-9PAK-GLE8,ac:17:c8:5d:2e:bb,45.3.202.66,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 2GB
+Number: 346-347-2576
+IMEI: 358030090076873
+ICCID: 89148000001377453757 ",https://n585.meraki.com/00016-Jacksonvil/n/j3bzHbdc/manage/nodes/new_list/189218145775291,N_636696397319542005,[],0016-JFL-FW0,MX67C-NA,wired-18-1-07,
+43.60397,-84.2371,"Building 923 Midland, MI 48667 
+
+P.O. Box 290, Midland, MI, 48640",Q2HY-9PSB-STUS,ac:17:c8:5d:2e:c9,100.77.116.146,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 2GB
+Number: 281-974-0337
+IMEI: 358030090079752
+ICCID: 89148000004692024584",https://n585.meraki.com/00024-Midland/n/EW_T3cdc/manage/nodes/new_list/189218145775305,N_636696397319544669,[],00024-MMI-FW0,MX67C-NA,wired-18-1-07,
+29.81897,-95.12409,"2502 Sheldon Rd. Channelview, TX 77530",Q2HY-9SUB-QF88,ac:17:c8:5d:2e:fa,192.168.10.10,,"CradlePoint
+Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 972-800-2847
+IMEI: 3535470619090119
+ICCID: 89148000000082961476 
+
+Carrier: Verizon
+Number: 281-309-6607
+IMEI: 358030090079935
+ICCID: 89148000004692024915",https://n585.meraki.com/00141-Channelvie/n/lffdXddc/manage/nodes/new_list/189218145775354,N_636696397319543932,[],00141-CHX-FW0,MX67C-NA,wired-18-1-07,
+29.38238,-94.95,"3527 1st Avenue South, Texas City, TX, 77590",Q2HY-9TVC-3FQ2,ac:17:c8:5d:2f:1d,,192.168.35.252,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 832-986-7573
+IMEI: 358030090088555 
+ICCID: 89148000004692025342 ",https://n585.meraki.com/00140-Texas-City/n/XL0Oncdc/manage/nodes/new_list/189218145775389,N_636696397319543740,[],00140-TCX-FW0 - US-TX-TEXA2,MX67C-NA,wired-18-1-07,
+45.74569,-108.59682,"1401 S 32nd St W, Billings, MT, 59102",Q2HY-BCY3-DF5Z,ac:17:c8:5d:32:7a,209.181.6.169,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 281-382-5832
+IMEI: 358030090010484 
+ICCID: 89148000004692024600 ",https://n585.meraki.com/01211-Billings/n/KGXWcddc/manage/nodes/new_list/189218145776250,N_636696397319543529,[],01211-BMT-FW0,MX67C-NA,wired-18-1-07,
+37.4180951010362,-122.098531723022,,Q2HY-BMC6-H2JS,ac:17:c8:5d:33:37,192.168.35.251,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 281-636-9316
+IMEI: 358030090060919
+ICCID: 89148000004692025300",https://n585.meraki.com/01133-Hammond/n/MCfojddc/manage/nodes/new_list/189218145776439,N_636696397319544324,[],01133-HTC-FW0,MX67C-NA,wired-18-1-07,
+37.4180951010362,-122.098531723022,,Q2HY-C38Q-797G,ac:17:c8:5d:34:8e,,199.88.255.250,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 346-208-3822
+IMEI: 358030090055117
+ICCID: 89148000004692024212",https://n585.meraki.com/00214-Crossville/n/odnu7adc/manage/nodes/new_list/189218145776782,N_636696397319544673,[],0214-CRI-FW0,MX67C-NA,wired-18-1-07,
+35.44171,-119.26505,"30790 7th Standard Rd. Bakersfield, CA 93314",Q2HY-E2NL-JPTS,ac:17:c8:5d:39:b2,12.174.79.86,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 832-621-7604
+IMEI: 358030090045738
+ICCID: 89148000003912730962",https://n585.meraki.com/01124-Bakersfiel/n/D3Lrsbdc/manage/nodes/new_list/189218145778098,L_636696397319508580,[],01124-CEC-FW0,MX67C-NA,wired-18-1-07,
+41.39364,-88.41112,"630 E. US Route 6, Morris, IL, 60450",Q2HY-EMFP-DTG3,ac:17:c8:c1:dc:a5,50.252.113.137,,"Carrier: AT&T
+Plan Type: Mobile Select Pooled 100MB
+Number: 630-376-8359
+IMEI: 358030090076766
+ICCID: 89014104271357604716",https://n585.meraki.com/03020-CHI-Chicag/n/_o0L3ddc/manage/nodes/new_list/189218152373413,N_636696397319545059,[],3020-CHI-FW0,MX67C-NA,wired-18-1-07,
+37.0432,-95.61048,"415 E 1st St
+Coffeyville KS 67337",Q2HY-FFNY-VAQQ,68:3a:1e:20:0e:4d,24.249.133.190,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 713-725-4983
+IMEI: 357918090242563
+ICCID: 89148000004234867243
+",https://n585.meraki.com/00217-Coffeyvill/n/WPqsobFe/manage/nodes/new_list/114598822809165,N_724516590053230797,[],0217-EKS-FW1,MX67C-NA,wired-18-1-07,
+37.4180951010362,-122.098531723022,,Q2HY-G4V2-GERA,ac:17:c8:5d:3f:b6,,,,https://n585.meraki.com/00115-Ablemarle/n/PkFBDcFe/manage/nodes/new_list/189218145779638,N_724516590053231491,[],00115-RDX-FW01,MX67C-NA,wired-18-1-07,
+37.4180951010362,-122.098531723022,,Q2HY-GDBX-8G6N,98:18:88:75:55:18,,12.220.136.202,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 346-208-3706
+IMEI: 357918090393911
+ICCID: 89148000004692025334",https://n585.meraki.com/00416-Chrysler-T/n/DseAqcdc/manage/nodes/new_list/167231136027928,N_636696397319544671,[],00416-FCT-FW0,MX67C-NA,wired-18-1-07,
+37.4180951010362,-122.098531723022,,Q2HY-GG4Z-78BD,98:18:88:75:56:d1,152.44.154.194,,,https://n585.meraki.com/1235-Sacramento/n/hvEveaFe/manage/nodes/new_list/167231136028369,N_724516590053235412,[],1235-NCF-FW1,MX67C-NA,wired-18-1-07,
+37.4180951010362,-122.098531723022,,Q2HY-J469-RKW9,98:18:88:c9:0a:9e,208.74.154.202,,"Carrier: AT&T
+Plan Type: Mobile Select Pooled 100MB
+Number: 832-835-4537
+IMEI: 358030090081147
+ICCID: 89014104271357604799",https://n585.meraki.com/00044-Anacortes/n/KcgqGbdc/manage/nodes/new_list/167231141513886,N_636696397319544278,[],00044-ANA-FW1,MX67C-NA,wired-18-1-07,
+37.4180951010362,-122.098531723022,,Q2HY-JGGD-Y6HK,98:18:88:75:76:2e,24.111.88.130,,,https://n585.meraki.com/01164-MMA/n/hs-J5cFe/manage/nodes/new_list/167231136036398,N_724516590053235056,[],01164-MMA-FW0,MX67C-NA,wired-18-1-07,
+40.15712,-105.02051,,Q2HY-KUP3-LLWP,ac:17:c8:c1:f2:bd,192.168.165.119,,,https://n585.meraki.com/00134-Valero-Saf/n/G22wncdc/manage/nodes/new_list/189218152379069,N_636696397319543145,['recently-added'],00134-CCX-FW3,MX67C-NA,wired-18-1-07,
+37.4180951010362,-122.098531723022,,Q2HY-LSE3-7E2A,98:18:88:75:99:35,,50.224.82.123,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 281-743-1226
+IMEI: 358030090055505
+ICCID: 89148000004692235628",https://n585.meraki.com/00361-DPX-Baytow/n/2XwHlbdc/manage/nodes/new_list/167231136045365,N_636696397319542861,[],00361-DPX-FW0,MX67C-NA,wired-18-1-07,
+38.91634,-75.56248,"299 Cluckey Dr
+Harrington, DE 19952",Q2HY-MBL9-GEVR,98:18:88:75:a1:af,96.68.241.57,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 281-755-5221
+IMEI: 358030090029740
+ICCID: 89148000004234867342
+",https://n585.meraki.com/01702-HAR/n/vDRyybFe/manage/nodes/new_list/167231136047535,N_724516590053235102,[],01702-HAR-FW0,MX67C-NA,wired-18-1-07,
+37.4180951010362,-122.098531723022,,Q2HY-NM4V-Y6P5,98:18:88:75:b6:69,192.168.35.110,,"WAN2: Starlink (Atron Solutions)
+
+",https://n585.meraki.com/00144-Exxon-Bayt/n/CbLoycdc/manage/nodes/new_list/167231136052841,N_636696397319543295,[],0144-BTX-FW0,MX67C-NA,wired-18-1-07,
+37.4180951010362,-122.098531723022,,Q2HY-SEM6-AMRQ,98:18:88:75:f1:48,68.238.234.106,,,https://n585.meraki.com/01700-EPE/n/D3WqGbdc/manage/nodes/new_list/167231136067912,N_636696397319545455,[],1700-EPE-FW0,MX67C-NA,wired-18-1-07,
+37.93209,-122.39114,"841 Chevron Way, 
+Richmond, CA 94801",Q2HY-SLH5-XRVB,ac:17:c8:5d:13:a2,,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 346-306-7607
+IMEI: 358030090000303
+ICCID: 89148000001377453864",https://n585.meraki.com/01705-CHR-Chevro/n/v4ZNebdc/manage/nodes/new_list/189218145768354,N_636696397319541453,[],01705-CHR-FW0,MX67C-NA,wired-18-1-07,
+30.07441,-90.5714,"268 Power Blvd  Reserve, LA 70084",Q2MN-47RV-4NMF,e0:55:3d:8c:7a:80,,50.252.160.169,"PSC
+WAN Primary
+258 Power Blvd
+Reserve
+LA
+985-536-7612
+""Comcast
+888-638-9658
+Account ID: 200000898
+Site ID: 233""
+75.145.222.54
+888-638-9658
+Users: 12 / Primary Contact: Ralph Usey / Email: rusey@pscnow.com / Hours of Operation: M to F 7 to 5",https://n585.meraki.com/00106-Reserve-ap/n/MEctvbdc/manage/nodes/new_list/246656709458560,L_636696397319508636,[],00106-LLA-FW0,MX64W,wired-18-1-07,
+41.71272,-83.50487,"1701 East Matzinger rd
+Toledo, OH
+313-824-5848 OR 313-824-5840",Q2MN-49AV-8JYC,e0:55:3d:8c:7a:d0,12.26.125.194,,"""Account Number: 2015035005
+Nitel Circuit ID: NIT205723
+Nitel Service ID: SID31021301""
+12.249.25.77
+855-277-8686
+Users: 16 / Primary Contact: Pat Destazio / Cell Phone: 419-726-1500 / Email: pdestazio@pscnow.com /  Hours of Operation: M to F 7 to 4",https://n585.meraki.com/01636-Toledo-app/n/ZpytIddc/manage/nodes/new_list/246656709458640,L_636696397319508622,[],01636-TLW-FW0,MX64W,wired-18-1-07,
+38.99928,-87.72979,"822 S. Eaton, Robinson, IL 62454",Q2MN-4RPF-R7BN,e0:55:3d:8c:7c:a0,192.168.35.253,,"""Verizon Wireless
+Cell# 618-553-1494
+800-922-0204
+4G Aircard/cradlepoint setup""
+209.124.22.89
+866-636-4357
+Users: 4 / Primary Contact: Quiana Gibson / 618-544-8307 / Email: mlamb@pscnow.com;/ Hours of Operation: 8 to 5 M-F",https://n585.meraki.com/01258-Robinson-a/n/bnotRadc/manage/nodes/new_list/246656709459104,L_636696397319508619,['recently-added'],01258-MRI-FW0,MX64W,wired-18-1-07,
+41.98029,-87.94869,"1071 Thorndale Ave 
+Bensenville, IL
+60106",Q2MN-6S4P-XYXA,e0:55:3d:ec:e0:60,50.249.215.172,,,https://n585.meraki.com/01107-Bensenvill/n/YHwxabdc/manage/nodes/new_list/246656715776096,L_636696397319508611,[],01107-CCO-FW0,MX64W,wired-18-1-07,
+34.02144,-117.35658,"1650 W. Pellisier Rd.
+Colton, CA 92324",Q2MN-6Y2S-ZNQT,e0:55:3d:ec:e1:30,192.168.1.205,12.25.172.122,"AT&T
+800-321-2000
+Acct#  141762071
+Security Question is Favorite Restaurant:  Applebees
+IP Range: 99.124.163.201 - .205
+WAN: 99.124.163.203
+NetMask:  255.255.255.248
+Gateway: 99.124.163.206
+DNS1: 68.94.156.1
+DNS2: 68.94.157.1",https://n585.meraki.com/01225-Colton-app/n/P9sJ0ddc/manage/nodes/new_list/246656715776304,L_636696397319508617,[],01225-SCE-FW0,MX64W,wired-18-1-07,
+32.38336,-95.26534,"4694 Cantina Drive 
+Tyler, TX, 75708-6603",Q2MN-BPYE-DCJE,e0:55:3d:ec:f2:50,,12.15.152.26,"WAN Primary
+4694 Cantina Dr
+Tyler
+TX
+903-533-1114
+""NetWolves - SuddenLink Comm
+888-638-9658
+Account ID: 20000012500
+Site ID: 114""
+173.219.16.1
+888-638-9658
+Users: 6 / Primary Contact: Robert Mendez /  Email: Robert.Mendez@hydrochempsc.com",https://n585.meraki.com/01114-Tyler-Netw/n/5rN0Sbdc/manage/nodes/new_list/246656715780688,L_636696397319508626,[],00114-TYL-FW0,MX64W,wired-18-1-07,
+42.77279,-73.68494,"35 Ontario St, Cohoes, NY, 12047",Q2MN-BWPT-UA3E,e0:55:3d:ec:f3:60,24.39.4.70,24.213.219.250,"ATRON SOLUTIONS
+
+Public Network 
+Gateway IP Address: 24.39.4.69
+Useable IP Range Assigned: 24.39.4.70 
+IP Subnet Mask: 255.255.255.252 
+Primary DNS Server: 24.92.226.11 
+Secondary DNS Server: 24.92.226.12 
+",https://n585.meraki.com/01209-Cohoes-app/n/6IuHEcdc/manage/nodes/new_list/246656715780960,L_636696397319508584,[],01209-CHS-FW0,MX64W,wired-18-1-07,
+33.78632,-118.21074,"1539 Harbor Avenue, Long Beach, CA, 90813",Q2MN-BZM7-HE5A,e0:55:3d:ec:f3:c0,47.180.167.42,,"PSC
+WAN Primary
+1411 West Gaylord st
+Long Beach 
+CA
+562-997-6000 or 562-432-7090
+""Verizon FIOS
+800 - Verizon / 800-837-4066
+Account ID: 01 90000 1254393120 09
+Cust Acct: 1254393120""
+108.47.112.1
+800-837-4066
+Users: 12 / ",https://n585.meraki.com/00031-Long-Beach/n/KH9i3cdc/manage/nodes/new_list/246656715781056,L_636696397319508624,[],00031-LCA-FW0,MX64W,wired-18-1-07,
+37.4180951010362,-122.098531723022,,Q2MN-C77R-TQ9E,e0:55:3d:ec:f4:70,12.237.117.234,,,https://n585.meraki.com/01215-Jeanerette/n/iHZW3ddc/manage/nodes/new_list/246656715781232,L_636696397319508616,[],1215-JLA-FW0,MX64W,wired-18-1-07,
+39.81592,-104.94133,"6511 Colorado Blvd  Unit 2
+Commerce City, CO",Q2MN-EAJ4-ZGV4,e0:55:3d:ec:fc:10,,50.209.243.161,"""Comcast Cable
+1-800-391-3000
+Acct #: 8497101680985735""
+173.164.34.230
+888-638-9658
+Primary Contact: Brenda DeHaven / Cell Phone: 720-326-1978 / Email: brenda.dehaven@pscnow.com / Hours of Operation: M-F 8 to 5 eastern",https://n585.meraki.com/01161-Commerce-C/n/as0Mxddc/manage/nodes/new_list/246656715783184,L_636696397319508608,[],01161-SDC-FW0,MX64W,wired-18-1-07,
+48.46576,-122.55993,"8505 South Texas Road, Anacortes, WA, 98221",Q2MN-GVSD-AYWP,0c:8d:db:5f:7b:80,96.78.53.249,,,https://n585.meraki.com/00044-Mount-Vern/n/LZpIvadc/manage/nodes/new_list/13803410389888,N_636696397319540824,[],00044-AWA-FW1,MX64W,wired-18-1-07,
+39.228,-76.58622,"4101 Curtis Ave
+Baltimore, MD 21226",Q2MN-ZP67-CDFP,e0:55:3d:ef:02:60,,192.168.35.242,,https://n585.meraki.com/01702-Sparrows-P/n/ukrVCcdc/manage/nodes/new_list/246656715915872,N_636696397319532854,[],01702-BGE-FW0,MX64W,wired-18-1-07,
+37.4180951010362,-122.098531723022,,Q2MN-ZP9W-CSVW,e0:55:3d:ef:02:70,,50.240.157.89,,https://n585.meraki.com/00215-Channahon/n/xS2pDadc/manage/nodes/new_list/246656715915888,N_636696397319538090,[],0215-CIL-FW0,MX64W,wired-18-1-07,
+36.0224,-120.90335,"62117 Railroad Ave
+San Ardo, CA",Q2MN-ZQ86-AB4X,e0:55:3d:ef:03:90,12.47.128.10,12.202.14.170,"""NiTel T1
+866-892-0915
+Account ID: PSC1735376""
+12.33.0.113
+866-892-0915
+Users: 20 / Primary Contact: Sarah Chavez / Email: Schavez@pscnow.com / Hours of Operation: M to F 7 to 4",https://n585.meraki.com/01113-San-Ardo-a/n/5hYf0adc/manage/nodes/new_list/246656715916176,L_636696397319508635,[],1113-CCA-FW0,MX64W,wired-18-1-07,
+38.69553,-90.1396,"2030 Park Avenue Gate 38, Granite City, IL, 62040",Q2MN-ZQL3-HRD3,e0:55:3d:ef:03:d0,,47.50.221.170,,https://n585.meraki.com/01563-Granite-Ci/n/faxhPadc/manage/nodes/new_list/246656715916240,N_636696397319538862,[],01563-UGC-FW0,MX64W,wired-18-1-07,
+30.25373,-92.05366,"543 Renaud Rd., Lafayette, LA 70507",Q2MN-ZRA6-FDJD,e0:55:3d:ef:04:90,12.29.202.186,,"543 Ranaud Rd
+Lafayette
+LA
+337-233-4889
+Verizon T1
+800-264-1000
+account ID: u304130
+Circuit ID: K0514343
+Gateway: 63.99.104.177
+800-900-0241
+Users: 12 / Primary Contact: Karen Airhart/  Email: Karen.airhart@pscnow.com / Hours of Operation: M to F 7 to 4",https://n585.meraki.com/01226-Lafayette-/n/74SP3ddc/manage/nodes/new_list/246656715916432,L_636696397319508623,[],01226-LFL-FW0,MX64W,wired-18-1-07,
+29.68375,-91.00059,"756 Geraldine Rd, Gibson, LA 70356
+985-575-3434",Q2MN-ZRCS-TG9E,e0:55:3d:ef:04:a0,,12.207.14.211,"""Account: 2011242013
+ Circuit ID: NIT201042""
+12.1.158.169
+866-892-0915
+carrier: Nitel T1 / Primary Contact: Phyllis Robison /Hours of Operation: 8 to 5 M-F",https://n585.meraki.com/01217-Gibson-app/n/vM7COddc/manage/nodes/new_list/246656715916448,L_636696397319508613,[],01217-LAN-FW0,MX64W,wired-18-1-07,
+40.86259,-111.91097,"2525 S 1100 W 
+Woods Cross, UT, 84087",Q2MN-ZRGG-PSYV,e0:55:3d:ef:04:c0,74.95.52.213,,"PSC
+WAN Primary:
+Comcast
+
+WAN Secondary
+2525 South 1100 West
+Wood Cross
+UT
+801-298-5600
+""
+Sprint T1
+800-877-5045
+Account ID: 76671167
+NUA# 76114202""
+208.29.18.177
+
+Primary Contact: Kristy Montgomery / Cell Phone: 801-201-8478 / Hours of Operation: ",https://n585.meraki.com/01149-Woods-Cros/n/w4pZrbdc/manage/nodes/new_list/246656715916480,L_636696397319508633,[],1149-WCU-FW0,MX64W,wired-18-1-07,
+33.48054,-86.92378,"5700 Valley Rd
+Fairfield
+AL
+205-788-4299",Q2MN-ZS8A-FZVQ,e0:55:3d:ef:05:70,192.168.35.253,,"PSC
+WAN X1
+5700 Valley Rd
+Fairfield
+AL
+205-788-4299
+Circuit ID#: BBFV16483
+4.30.51.149
+877-453-8353
+Primary Contact: Jennifer Sager / Email: jennifer.sager@pscnow.com /  Hours of Operation: ",https://n585.meraki.com/01171-Fairfield-/n/fMtYecdc/manage/nodes/new_list/246656715916656,L_636696397319508612,[],01171-UFA-FW0,MX64W,wired-18-1-07,
+35.95143,-101.8741,,Q2PY-J2JP-PRYZ,ac:17:c8:a0:dc:20,10.244.162.47,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 10GB
+Number: 281-309-7078
+IMEI: 359677061728806
+ICCID: 89148000006059376325",https://n585.meraki.com/00143-Shell-Deer/n/O24RLddc/manage/nodes/new_list/189218150210592,N_636696397319541715,['recently-added'],0143-SHX-FW1,Z3C-NA,wired-18-1-07,
+38.08447,-122.13833,"395 W Channel Road, Benicia, CA 94510",Q2PY-MWT4-5W6D,ac:17:c8:a0:84:a8,10.149.93.156,,"Carrier: Verizon
+Plan Type: Custom Flex Mobile Broadband 2GB
+Number: 281-413-8073
+IMEI: 359677061533461
+ICCID: 89148000004692025227",https://n585.meraki.com/01135-Valero-Ben/n/tXAnVadc/manage/nodes/new_list/189218150188200,N_636696397319543986,[],01135-VBN-FW0,Z3C-NA,wired-18-1-07,
+42.3129,-71.57926,"34 St Martin Dr, Marlborough, MA 01752",Q2XN-DJ73-JTWM,a8:46:9d:3c:ac:2e,155.203.2.221,,,https://n585.meraki.com/US-MA-MAR1-VPN-M/n/qrdmPaFe/manage/nodes/new_list/185021239176238,N_724516590053237194,[],US-MA-MAR1-VPN-MX221,MX95,wired-18-1-07,
+42.16055,-70.88399,"42 Longwater Dr, Norwell, MA 02061",Q2XN-EKN4-7WPN,a8:46:9d:3c:b3:a2,155.203.2.121,,,https://n585.meraki.com/US-MA-C-VPN-MX12/n/5cectdFe/manage/nodes/new_list/185021239178146,N_724516590053237195,[],US-MA-C-VPN-MX121,MX95,wired-18-1-07,

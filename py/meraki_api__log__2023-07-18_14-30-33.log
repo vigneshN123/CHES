@@ -1,0 +1,508 @@
+2023-07-18 14:30:33       meraki:     INFO > Meraki dashboard API session initialized with these parameters: {'version': '1.33.0', 'api_key': '************************************8658', 'base_url': 'https://api.meraki.com/api/v1', 'single_request_timeout': 60, 'certificate_path': '', 'requests_proxy': '', 'wait_on_rate_limit': True, 'nginx_429_retry_wait_time': 60, 'action_batch_retry_wait_time': 60, 'retry_4xx_error': False, 'retry_4xx_error_wait_time': 60, 'maximum_retries': 2, 'simulate': False, 'be_geo_id': None, 'caller': None, 'use_iterator_for_get_pages': False}
+2023-07-18 14:30:33       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:30:33       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_636696397319508635/clients
+2023-07-18 14:30:34       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:30:34       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:30:34       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508635/clients?perPage=10&startingAfter=k2be11e
+2023-07-18 14:30:35       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:30:35       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:30:35       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319543641/clients
+2023-07-18 14:30:39       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:30:39       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:30:39       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319543641/clients?perPage=10&startingAfter=k9f6fe6
+2023-07-18 14:30:39       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:30:39       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2023-07-18 14:30:39       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319543641/clients?perPage=10&startingAfter=kf8c37d
+2023-07-18 14:30:39       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2023-07-18 14:30:39       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 4}
+2023-07-18 14:30:39       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319543641/clients?perPage=10&startingAfter=k50db21
+2023-07-18 14:30:39       meraki:     INFO > networks, getNetworkClients; page 4 - 200 OK
+2023-07-18 14:30:39       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:30:39       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319543640/clients
+2023-07-18 14:30:42       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:30:42       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:30:42       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319543640/clients?perPage=10&startingAfter=k4c7aaf
+2023-07-18 14:30:42       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:30:42       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:30:42       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319541884/clients
+2023-07-18 14:30:43       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:30:43       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:30:43       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319541884/clients?perPage=10&startingAfter=ka9c26a
+2023-07-18 14:30:43       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:30:43       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2023-07-18 14:30:43       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319541884/clients?perPage=10&startingAfter=kf3bdfb
+2023-07-18 14:30:43       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2023-07-18 14:30:43       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 4}
+2023-07-18 14:30:43       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319541884/clients?perPage=10&startingAfter=k4b11ba
+2023-07-18 14:30:43       meraki:     INFO > networks, getNetworkClients; page 4 - 200 OK
+2023-07-18 14:30:43       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:30:43       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319542729/clients
+2023-07-18 14:30:44       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:30:44       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:30:44       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319543937/clients
+2023-07-18 14:30:45       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:30:45       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:30:45       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319543255/clients
+2023-07-18 14:30:45       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:30:45       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:30:45       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319543255/clients?perPage=10&startingAfter=k248296
+2023-07-18 14:30:45       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:30:45       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:30:45       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319541443/clients
+2023-07-18 14:30:46       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:30:46       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:30:46       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_636696397319508634/clients
+2023-07-18 14:30:48       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:30:48       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:30:48       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508634/clients?perPage=10&startingAfter=kf0b263
+2023-07-18 14:30:49       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:30:49       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:30:49       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319544320/clients
+2023-07-18 14:30:52       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:30:52       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:30:52       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319544320/clients?perPage=10&startingAfter=k3559c6
+2023-07-18 14:30:52       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:30:52       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:30:52       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319542332/clients
+2023-07-18 14:30:55       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:30:55       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:30:55       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319542332/clients?perPage=10&startingAfter=kc356fe
+2023-07-18 14:30:55       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:30:55       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2023-07-18 14:30:55       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319542332/clients?perPage=10&startingAfter=k292ca9
+2023-07-18 14:30:55       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2023-07-18 14:30:55       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:30:55       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319544321/clients
+2023-07-18 14:30:56       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:30:56       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:30:56       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319543920/clients
+2023-07-18 14:31:02       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:31:02       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:31:02       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319543920/clients?perPage=10&startingAfter=k2affd0
+2023-07-18 14:31:03       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:31:03       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:31:03       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319543938/clients
+2023-07-18 14:31:06       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:31:06       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:31:06       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319543938/clients?perPage=10&startingAfter=k549038
+2023-07-18 14:31:06       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:31:06       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:31:06       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319542859/clients
+2023-07-18 14:31:07       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:31:08       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:31:08       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319542859/clients?perPage=10&startingAfter=k640aa2
+2023-07-18 14:31:08       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:31:08       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2023-07-18 14:31:08       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319542859/clients?perPage=10&startingAfter=k640afb
+2023-07-18 14:31:08       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2023-07-18 14:31:08       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:31:08       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319541848/clients
+2023-07-18 14:31:09       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:31:09       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:31:09       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319541848/clients?perPage=10&startingAfter=k551ff4
+2023-07-18 14:31:09       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:31:09       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:31:09       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319544318/clients
+2023-07-18 14:31:09       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:31:09       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:31:09       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319544318/clients?perPage=10&startingAfter=k370298
+2023-07-18 14:31:09       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:31:09       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:31:09       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319542738/clients
+2023-07-18 14:31:11       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:31:11       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:31:11       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319544670/clients
+2023-07-18 14:31:11       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:31:12       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:31:12       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319544670/clients?perPage=10&startingAfter=k1014df
+2023-07-18 14:31:12       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:31:12       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2023-07-18 14:31:12       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319544670/clients?perPage=10&startingAfter=kb72858
+2023-07-18 14:31:12       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2023-07-18 14:31:12       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 4}
+2023-07-18 14:31:12       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319544670/clients?perPage=10&startingAfter=k14332e
+2023-07-18 14:31:12       meraki:     INFO > networks, getNetworkClients; page 4 - 200 OK
+2023-07-18 14:31:12       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 5}
+2023-07-18 14:31:12       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319544670/clients?perPage=10&startingAfter=k2e25b5
+2023-07-18 14:31:13       meraki:     INFO > networks, getNetworkClients; page 5 - 200 OK
+2023-07-18 14:31:13       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:31:13       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_636696397319508632/clients
+2023-07-18 14:31:13       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:31:13       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:31:13       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508632/clients?perPage=10&startingAfter=k736385
+2023-07-18 14:31:13       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:31:14       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2023-07-18 14:31:14       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508632/clients?perPage=10&startingAfter=k95dc7f
+2023-07-18 14:31:14       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2023-07-18 14:31:14       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 4}
+2023-07-18 14:31:14       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508632/clients?perPage=10&startingAfter=k135682
+2023-07-18 14:31:14       meraki:     INFO > networks, getNetworkClients; page 4 - 200 OK
+2023-07-18 14:31:14       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 5}
+2023-07-18 14:31:14       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508632/clients?perPage=10&startingAfter=kd0f1f8
+2023-07-18 14:31:14       meraki:     INFO > networks, getNetworkClients; page 5 - 200 OK
+2023-07-18 14:31:14       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 6}
+2023-07-18 14:31:14       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508632/clients?perPage=10&startingAfter=kfe1c60
+2023-07-18 14:31:15       meraki:     INFO > networks, getNetworkClients; page 6 - 200 OK
+2023-07-18 14:31:15       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 7}
+2023-07-18 14:31:15       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508632/clients?perPage=10&startingAfter=k373b04
+2023-07-18 14:31:15       meraki:     INFO > networks, getNetworkClients; page 7 - 200 OK
+2023-07-18 14:31:15       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 8}
+2023-07-18 14:31:15       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508632/clients?perPage=10&startingAfter=k56f87e
+2023-07-18 14:31:15       meraki:     INFO > networks, getNetworkClients; page 8 - 200 OK
+2023-07-18 14:31:15       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:31:15       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_636696397319512682/clients
+2023-07-18 14:31:16       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:31:16       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:31:16       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_636696397319508582/clients
+2023-07-18 14:31:17       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:31:17       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:31:17       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319543933/clients
+2023-07-18 14:31:18       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:31:18       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:31:18       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319543933/clients?perPage=10&startingAfter=kcc9cbb
+2023-07-18 14:31:18       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:31:18       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2023-07-18 14:31:18       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319543933/clients?perPage=10&startingAfter=k4e9bf1
+2023-07-18 14:31:19       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2023-07-18 14:31:19       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:31:19       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319541913/clients
+2023-07-18 14:31:37       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:31:37       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:31:37       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319541913/clients?perPage=10&startingAfter=kee67a3
+2023-07-18 14:31:37       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:31:37       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:31:37       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319541770/clients
+2023-07-18 14:31:39       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:31:39       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:31:39       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319541770/clients?perPage=10&startingAfter=k918394
+2023-07-18 14:31:39       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:31:39       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2023-07-18 14:31:39       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319541770/clients?perPage=10&startingAfter=kcde471
+2023-07-18 14:31:40       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2023-07-18 14:31:40       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 4}
+2023-07-18 14:31:40       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319541770/clients?perPage=10&startingAfter=k23110f
+2023-07-18 14:31:40       meraki:     INFO > networks, getNetworkClients; page 4 - 200 OK
+2023-07-18 14:31:40       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 5}
+2023-07-18 14:31:40       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319541770/clients?perPage=10&startingAfter=k383e20
+2023-07-18 14:31:40       meraki:     INFO > networks, getNetworkClients; page 5 - 200 OK
+2023-07-18 14:31:40       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:31:40       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319543934/clients
+2023-07-18 14:31:41       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:31:41       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:31:41       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319543934/clients?perPage=10&startingAfter=k9cccd2
+2023-07-18 14:31:41       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:31:41       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2023-07-18 14:31:41       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319543934/clients?perPage=10&startingAfter=ke05b46
+2023-07-18 14:31:41       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2023-07-18 14:31:41       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 4}
+2023-07-18 14:31:41       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319543934/clients?perPage=10&startingAfter=k3ddf55
+2023-07-18 14:31:41       meraki:     INFO > networks, getNetworkClients; page 4 - 200 OK
+2023-07-18 14:31:41       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:31:41       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319542860/clients
+2023-07-18 14:31:43       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:31:43       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:31:43       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319542860/clients?perPage=10&startingAfter=k4b3ea0
+2023-07-18 14:31:43       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:31:43       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:31:43       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319542005/clients
+2023-07-18 14:31:44       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:31:44       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:31:44       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319542005/clients?perPage=10&startingAfter=kfd5c88
+2023-07-18 14:31:44       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:31:44       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:31:44       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319544669/clients
+2023-07-18 14:31:48       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:31:48       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:31:48       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319544669/clients?perPage=10&startingAfter=k37b976
+2023-07-18 14:31:48       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:31:48       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:31:48       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319543932/clients
+2023-07-18 14:31:49       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:31:49       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:31:49       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319543740/clients
+2023-07-18 14:31:51       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:31:51       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:31:51       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319543740/clients?perPage=10&startingAfter=kddb872
+2023-07-18 14:31:51       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:31:51       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:31:51       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319543529/clients
+2023-07-18 14:31:52       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:31:52       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:31:52       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319543529/clients?perPage=10&startingAfter=k04b2e3
+2023-07-18 14:31:52       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:31:52       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:31:52       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319544324/clients
+2023-07-18 14:31:55       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:31:55       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:31:55       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319544324/clients?perPage=10&startingAfter=kb1c546
+2023-07-18 14:31:55       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:31:55       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2023-07-18 14:31:55       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319544324/clients?perPage=10&startingAfter=k5fad49
+2023-07-18 14:31:55       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2023-07-18 14:31:55       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:31:55       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319544673/clients
+2023-07-18 14:32:04       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:04       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:32:04       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319544673/clients?perPage=10&startingAfter=kbedb7d
+2023-07-18 14:32:04       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:32:04       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2023-07-18 14:32:04       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319544673/clients?perPage=10&startingAfter=k08ede0
+2023-07-18 14:32:04       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2023-07-18 14:32:04       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:04       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_636696397319508580/clients
+2023-07-18 14:32:06       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:06       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:06       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319545059/clients
+2023-07-18 14:32:18       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:18       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:32:18       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319545059/clients?perPage=10&startingAfter=kcefba8
+2023-07-18 14:32:18       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:32:18       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2023-07-18 14:32:18       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319545059/clients?perPage=10&startingAfter=k40f44d
+2023-07-18 14:32:19       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2023-07-18 14:32:19       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:19       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_724516590053230797/clients
+2023-07-18 14:32:19       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:19       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:19       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_724516590053231491/clients
+2023-07-18 14:32:20       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:20       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:20       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319544671/clients
+2023-07-18 14:32:21       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:21       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:21       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_724516590053235412/clients
+2023-07-18 14:32:23       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:23       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:32:23       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_724516590053235412/clients?perPage=10&startingAfter=k370924
+2023-07-18 14:32:23       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:32:23       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:23       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319544278/clients
+2023-07-18 14:32:29       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:29       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:29       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_724516590053235056/clients
+2023-07-18 14:32:30       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:30       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:30       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319543145/clients
+2023-07-18 14:32:32       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:32       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:32       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319542861/clients
+2023-07-18 14:32:33       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:33       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:32:33       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319542861/clients?perPage=10&startingAfter=kb28d07
+2023-07-18 14:32:33       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:32:33       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2023-07-18 14:32:33       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319542861/clients?perPage=10&startingAfter=kf4bcfe
+2023-07-18 14:32:33       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2023-07-18 14:32:33       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:33       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_724516590053235102/clients
+2023-07-18 14:32:36       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:36       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:36       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319543295/clients
+2023-07-18 14:32:36       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:36       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:36       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319545455/clients
+2023-07-18 14:32:37       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:37       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:32:37       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319545455/clients?perPage=10&startingAfter=ke5e5a5
+2023-07-18 14:32:37       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:32:37       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:37       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319541453/clients
+2023-07-18 14:32:37       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:37       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:37       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_636696397319508636/clients
+2023-07-18 14:32:38       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:38       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:32:38       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508636/clients?perPage=10&startingAfter=k81b729
+2023-07-18 14:32:38       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:32:38       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2023-07-18 14:32:38       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508636/clients?perPage=10&startingAfter=ka309d1
+2023-07-18 14:32:39       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2023-07-18 14:32:39       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 4}
+2023-07-18 14:32:39       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508636/clients?perPage=10&startingAfter=kcb43a2
+2023-07-18 14:32:39       meraki:     INFO > networks, getNetworkClients; page 4 - 200 OK
+2023-07-18 14:32:39       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 5}
+2023-07-18 14:32:39       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508636/clients?perPage=10&startingAfter=ke9caa8
+2023-07-18 14:32:39       meraki:     INFO > networks, getNetworkClients; page 5 - 200 OK
+2023-07-18 14:32:39       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 6}
+2023-07-18 14:32:39       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508636/clients?perPage=10&startingAfter=k31a9cd
+2023-07-18 14:32:39       meraki:     INFO > networks, getNetworkClients; page 6 - 200 OK
+2023-07-18 14:32:39       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 7}
+2023-07-18 14:32:39       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508636/clients?perPage=10&startingAfter=k5f9e01
+2023-07-18 14:32:39       meraki:     INFO > networks, getNetworkClients; page 7 - 200 OK
+2023-07-18 14:32:39       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:39       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_636696397319508622/clients
+2023-07-18 14:32:41       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:41       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:32:41       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508622/clients?perPage=10&startingAfter=k80b9fe
+2023-07-18 14:32:41       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:32:41       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2023-07-18 14:32:41       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508622/clients?perPage=10&startingAfter=kb4a8a4
+2023-07-18 14:32:41       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2023-07-18 14:32:42       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 4}
+2023-07-18 14:32:42       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508622/clients?perPage=10&startingAfter=k151b3d
+2023-07-18 14:32:42       meraki:     INFO > networks, getNetworkClients; page 4 - 200 OK
+2023-07-18 14:32:42       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 5}
+2023-07-18 14:32:42       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508622/clients?perPage=10&startingAfter=kf17401
+2023-07-18 14:32:42       meraki:     INFO > networks, getNetworkClients; page 5 - 200 OK
+2023-07-18 14:32:42       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 6}
+2023-07-18 14:32:42       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508622/clients?perPage=10&startingAfter=k3162c8
+2023-07-18 14:32:42       meraki:     INFO > networks, getNetworkClients; page 6 - 200 OK
+2023-07-18 14:32:42       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 7}
+2023-07-18 14:32:42       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508622/clients?perPage=10&startingAfter=k4af206
+2023-07-18 14:32:42       meraki:     INFO > networks, getNetworkClients; page 7 - 200 OK
+2023-07-18 14:32:42       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 8}
+2023-07-18 14:32:42       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508622/clients?perPage=10&startingAfter=k5d8cb9
+2023-07-18 14:32:43       meraki:     INFO > networks, getNetworkClients; page 8 - 200 OK
+2023-07-18 14:32:43       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:43       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_636696397319508619/clients
+2023-07-18 14:32:44       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:44       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:44       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_636696397319508611/clients
+2023-07-18 14:32:51       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:51       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:32:51       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508611/clients?perPage=10&startingAfter=ka877b3
+2023-07-18 14:32:52       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:32:52       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2023-07-18 14:32:52       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508611/clients?perPage=10&startingAfter=k1ed7b7
+2023-07-18 14:32:52       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2023-07-18 14:32:52       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:52       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_636696397319508617/clients
+2023-07-18 14:32:53       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:53       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:32:53       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508617/clients?perPage=10&startingAfter=k8a1060
+2023-07-18 14:32:53       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:32:53       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2023-07-18 14:32:53       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508617/clients?perPage=10&startingAfter=ka46d1f
+2023-07-18 14:32:53       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2023-07-18 14:32:53       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 4}
+2023-07-18 14:32:53       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508617/clients?perPage=10&startingAfter=kbfe4b1
+2023-07-18 14:32:53       meraki:     INFO > networks, getNetworkClients; page 4 - 200 OK
+2023-07-18 14:32:53       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 5}
+2023-07-18 14:32:53       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508617/clients?perPage=10&startingAfter=k19a827
+2023-07-18 14:32:54       meraki:     INFO > networks, getNetworkClients; page 5 - 200 OK
+2023-07-18 14:32:54       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 6}
+2023-07-18 14:32:54       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508617/clients?perPage=10&startingAfter=k317f4b
+2023-07-18 14:32:54       meraki:     INFO > networks, getNetworkClients; page 6 - 200 OK
+2023-07-18 14:32:54       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 7}
+2023-07-18 14:32:54       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508617/clients?perPage=10&startingAfter=k4b9778
+2023-07-18 14:32:54       meraki:     INFO > networks, getNetworkClients; page 7 - 200 OK
+2023-07-18 14:32:54       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 8}
+2023-07-18 14:32:54       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508617/clients?perPage=10&startingAfter=k5f3635
+2023-07-18 14:32:54       meraki:     INFO > networks, getNetworkClients; page 8 - 200 OK
+2023-07-18 14:32:54       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:54       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_636696397319508626/clients
+2023-07-18 14:32:55       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:55       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:32:55       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508626/clients?perPage=10&startingAfter=kc1c928
+2023-07-18 14:32:55       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:32:55       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:55       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_636696397319508584/clients
+2023-07-18 14:32:56       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:56       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:56       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_636696397319508624/clients
+2023-07-18 14:32:57       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:32:57       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:32:57       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508624/clients?perPage=10&startingAfter=k9a57b4
+2023-07-18 14:32:57       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:32:57       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2023-07-18 14:32:57       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508624/clients?perPage=10&startingAfter=k14ae9a
+2023-07-18 14:32:57       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2023-07-18 14:32:57       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 4}
+2023-07-18 14:32:57       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508624/clients?perPage=10&startingAfter=kfa882c
+2023-07-18 14:32:57       meraki:     INFO > networks, getNetworkClients; page 4 - 200 OK
+2023-07-18 14:32:58       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 5}
+2023-07-18 14:32:58       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508624/clients?perPage=10&startingAfter=k4a6087
+2023-07-18 14:32:58       meraki:     INFO > networks, getNetworkClients; page 5 - 200 OK
+2023-07-18 14:32:58       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:32:58       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_636696397319508616/clients
+2023-07-18 14:33:00       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:33:00       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:33:00       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508616/clients?perPage=10&startingAfter=k3f0008
+2023-07-18 14:33:00       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:33:00       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:33:00       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_636696397319508608/clients
+2023-07-18 14:33:01       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:33:01       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:33:01       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508608/clients?perPage=10&startingAfter=kc8f0ba
+2023-07-18 14:33:02       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:33:02       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2023-07-18 14:33:02       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508608/clients?perPage=10&startingAfter=k048753
+2023-07-18 14:33:02       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2023-07-18 14:33:02       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:33:02       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319540824/clients
+2023-07-18 14:33:12       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:33:12       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:33:12       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319532854/clients
+2023-07-18 14:33:13       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:33:13       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:33:13       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319532854/clients?perPage=10&startingAfter=ka3ae31
+2023-07-18 14:33:13       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:33:13       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2023-07-18 14:33:13       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319532854/clients?perPage=10&startingAfter=k27d34c
+2023-07-18 14:33:13       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2023-07-18 14:33:13       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:33:13       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319538090/clients
+2023-07-18 14:33:19       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:33:19       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:33:19       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319538090/clients?perPage=10&startingAfter=k371128
+2023-07-18 14:33:19       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:33:19       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:33:19       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_636696397319508635/clients
+2023-07-18 14:33:22       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:33:22       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:33:22       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508635/clients?perPage=10&startingAfter=k2be11e
+2023-07-18 14:33:22       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:33:22       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:33:22       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319538862/clients
+2023-07-18 14:33:24       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:33:24       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:33:24       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319538862/clients?perPage=10&startingAfter=k1fc51d
+2023-07-18 14:33:24       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:33:24       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:33:24       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_636696397319508623/clients
+2023-07-18 14:33:25       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:33:25       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:33:25       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508623/clients?perPage=10&startingAfter=k86b3b8
+2023-07-18 14:33:25       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:33:25       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2023-07-18 14:33:25       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508623/clients?perPage=10&startingAfter=kc51b19
+2023-07-18 14:33:25       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2023-07-18 14:33:25       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 4}
+2023-07-18 14:33:25       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508623/clients?perPage=10&startingAfter=kdfdf65
+2023-07-18 14:33:25       meraki:     INFO > networks, getNetworkClients; page 4 - 200 OK
+2023-07-18 14:33:25       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 5}
+2023-07-18 14:33:25       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508623/clients?perPage=10&startingAfter=k453c92
+2023-07-18 14:33:26       meraki:     INFO > networks, getNetworkClients; page 5 - 200 OK
+2023-07-18 14:33:26       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:33:26       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_636696397319508613/clients
+2023-07-18 14:33:26       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:33:26       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:33:26       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508613/clients?perPage=10&startingAfter=kcb7c39
+2023-07-18 14:33:27       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:33:27       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 3}
+2023-07-18 14:33:27       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508613/clients?perPage=10&startingAfter=k21704a
+2023-07-18 14:33:27       meraki:     INFO > networks, getNetworkClients; page 3 - 200 OK
+2023-07-18 14:33:27       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:33:27       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_636696397319508633/clients
+2023-07-18 14:33:28       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:33:28       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:33:28       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/L_636696397319508633/clients?perPage=10&startingAfter=keb0212
+2023-07-18 14:33:29       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:33:29       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:33:29       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/L_636696397319508612/clients
+2023-07-18 14:33:33       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:33:33       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:33:33       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319541715/clients
+2023-07-18 14:33:34       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:33:34       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 2}
+2023-07-18 14:33:34       meraki:     INFO > GET https://n585.meraki.com/api/v1/networks/N_636696397319541715/clients?perPage=10&startingAfter=kd26d5e
+2023-07-18 14:33:34       meraki:     INFO > networks, getNetworkClients; page 2 - 200 OK
+2023-07-18 14:33:34       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:33:34       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_636696397319543986/clients
+2023-07-18 14:33:35       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:33:35       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:33:35       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_724516590053237194/clients
+2023-07-18 14:33:47       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK
+2023-07-18 14:33:48       meraki:    DEBUG > {'tags': ['networks', 'monitor', 'clients'], 'operation': 'getNetworkClients', 'page': 1}
+2023-07-18 14:33:48       meraki:     INFO > GET https://api.meraki.com/api/v1/networks/N_724516590053237195/clients
+2023-07-18 14:33:49       meraki:     INFO > networks, getNetworkClients; page 1 - 200 OK

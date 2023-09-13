@@ -1,0 +1,154 @@
+2023-07-24 13:24:19       meraki:     INFO > Meraki dashboard API session initialized with these parameters: {'version': '1.33.0', 'api_key': '************************************8658', 'base_url': 'https://api.meraki.com/api/v1', 'single_request_timeout': 60, 'certificate_path': '', 'requests_proxy': '', 'wait_on_rate_limit': True, 'nginx_429_retry_wait_time': 60, 'action_batch_retry_wait_time': 60, 'retry_4xx_error': False, 'retry_4xx_error_wait_time': 60, 'maximum_retries': 2, 'simulate': False, 'be_geo_id': None, 'caller': None, 'use_iterator_for_get_pages': False}
+2023-07-24 13:24:19       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-4WYM-BU4W', 'json': {'name': '00134-CCX-FW0 - US-TX-CORP3'}}
+2023-07-24 13:24:19       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-4WYM-BU4W
+2023-07-24 13:24:20       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:20       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-4ZG4-GGSS', 'json': {'name': '00134-CCX-FW1 - US-TX-THRE1'}}
+2023-07-24 13:24:20       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-4ZG4-GGSS
+2023-07-24 13:24:22       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:22       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-5CAB-ATYD', 'json': {'name': '00047-CHW-FW0 - US-WY-CHEY1'}}
+2023-07-24 13:24:22       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-5CAB-ATYD
+2023-07-24 13:24:23       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:23       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-6JZK-3GUB', 'json': {'name': '01114-SOC-FW0 - US-CO-PUEB1'}}
+2023-07-24 13:24:23       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-6JZK-3GUB
+2023-07-24 13:24:24       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:25       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-6RC4-L7UJ', 'json': {'name': '00124-PLX-FW0 - US-TX-PORT1'}}
+2023-07-24 13:24:25       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-6RC4-L7UJ
+2023-07-24 13:24:25       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:25       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-77C3-84SZ', 'json': {'name': '00112-LVX-FW0 - US-TX-LONG2'}}
+2023-07-24 13:24:25       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-77C3-84SZ
+2023-07-24 13:24:26       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:26       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-7E7K-D5DW', 'json': {'name': '00358-DTE-FW0 - US-MI-MONR1'}}
+2023-07-24 13:24:26       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-7E7K-D5DW
+2023-07-24 13:24:27       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:27       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-7F8A-BDY3', 'json': {'name': '00101-LTX-FW0 - US-TX-LAPO4'}}
+2023-07-24 13:24:27       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-7F8A-BDY3
+2023-07-24 13:24:28       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:28       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-7K3U-R7F3', 'json': {'name': '00028-PCA-FW0 - US-CA-PITT1'}}
+2023-07-24 13:24:28       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-7K3U-R7F3
+2023-07-24 13:24:29       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:29       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-7KM5-WPKL', 'json': {'name': '01708-CES-FW0 - US-CA-ELSE1'}}
+2023-07-24 13:24:29       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-7KM5-WPKL
+2023-07-24 13:24:30       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:30       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-7VG3-G2GQ', 'json': {'name': '00311-AKY-FW0 - US-LA-WEST1'}}
+2023-07-24 13:24:30       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-7VG3-G2GQ
+2023-07-24 13:24:32       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:32       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-9H9K-B3G9', 'json': {'name': '00145-HDX-FW0  - US-TX-DEER5'}}
+2023-07-24 13:24:32       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-9H9K-B3G9
+2023-07-24 13:24:33       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:33       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-9JT7-L7DL', 'json': {'name': '00022-YOH-FW0 - US-OH-YOUN1'}}
+2023-07-24 13:24:33       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-9JT7-L7DL
+2023-07-24 13:24:34       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:34       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-9L5Q-4QPX', 'json': {'name': '0015-DEX-FW0 - US-TX-DEER4'}}
+2023-07-24 13:24:34       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-9L5Q-4QPX
+2023-07-24 13:24:35       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:35       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-9P32-ZURB', 'json': {'name': '00354-UPN-FW0 - US-MI-DEAR1'}}
+2023-07-24 13:24:35       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-9P32-ZURB
+2023-07-24 13:24:36       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:36       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-9PAK-GLE8', 'json': {'name': '0016-JFL-FW0 - US-FL-PLAN1'}}
+2023-07-24 13:24:36       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-9PAK-GLE8
+2023-07-24 13:24:40       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:40       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-9PSB-STUS', 'json': {'name': '00024-MMI-FW0 - US-MI-MIDL1'}}
+2023-07-24 13:24:40       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-9PSB-STUS
+2023-07-24 13:24:41       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:41       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-9SUB-QF88', 'json': {'name': '00141-CHX-FW0 - US-TX-CHAN1'}}
+2023-07-24 13:24:41       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-9SUB-QF88
+2023-07-24 13:24:43       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:43       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-BCY3-DF5Z', 'json': {'name': '01211-BMT-FW0 - US-MT-BILL2'}}
+2023-07-24 13:24:43       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-BCY3-DF5Z
+2023-07-24 13:24:44       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:44       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-BMC6-H2JS', 'json': {'name': '01133-HTC-FW0 - US-IN-HAMM3'}}
+2023-07-24 13:24:44       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-BMC6-H2JS
+2023-07-24 13:24:45       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:45       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-E2NL-JPTS', 'json': {'name': '01124-CEC-FW0 - US-CA-BAKE3'}}
+2023-07-24 13:24:45       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-E2NL-JPTS
+2023-07-24 13:24:47       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:47       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-EMFP-DTG3', 'json': {'name': '3020-CHI-FW0 - US-IL-MORR1'}}
+2023-07-24 13:24:47       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-EMFP-DTG3
+2023-07-24 13:24:51       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:51       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-FFNY-VAQQ', 'json': {'name': '0217-EKS-FW1 - US-KS-COFF1'}}
+2023-07-24 13:24:51       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-FFNY-VAQQ
+2023-07-24 13:24:52       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:52       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-GDBX-8G6N', 'json': {'name': '00416-FCT-FW0 - US-OH-TOLE2'}}
+2023-07-24 13:24:52       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-GDBX-8G6N
+2023-07-24 13:24:54       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:54       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-GG4Z-78BD', 'json': {'name': '1235-NCF-FW1 - US-CA-SACR2'}}
+2023-07-24 13:24:54       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-GG4Z-78BD
+2023-07-24 13:24:55       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:55       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-J469-RKW9', 'json': {'name': '00044-ANA-FW1 - US-WA-ANAC1'}}
+2023-07-24 13:24:55       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-J469-RKW9
+2023-07-24 13:24:55       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:24:56       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-JGGD-Y6HK', 'json': {'name': '01164-MMA-FW0 - US-ND-MAND1'}}
+2023-07-24 13:24:56       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-JGGD-Y6HK
+2023-07-24 13:25:05       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:05       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-LSE3-7E2A', 'json': {'name': '00361-DPX-FW0 - US-TX-BAYT3'}}
+2023-07-24 13:25:05       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-LSE3-7E2A
+2023-07-24 13:25:06       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:06       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-MBL9-GEVR', 'json': {'name': '01702-HAR-FW0 - US-DE-HARR1'}}
+2023-07-24 13:25:06       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-MBL9-GEVR
+2023-07-24 13:25:06       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:07       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-SEM6-AMRQ', 'json': {'name': '1700-EPE-FW0 - US-PA-PHIL1'}}
+2023-07-24 13:25:07       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-SEM6-AMRQ
+2023-07-24 13:25:07       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:07       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2HY-SLH5-XRVB', 'json': {'name': '01705-CHR-FW0 - US-CA-RICH2'}}
+2023-07-24 13:25:07       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2HY-SLH5-XRVB
+2023-07-24 13:25:08       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:08       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2MN-47RV-4NMF', 'json': {'name': '00106-LLA-FW0 - US-LA-RESE1'}}
+2023-07-24 13:25:08       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2MN-47RV-4NMF
+2023-07-24 13:25:10       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:10       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2MN-49AV-8JYC', 'json': {'name': '01636-TLW-FW0 - US-OH-TOLE3'}}
+2023-07-24 13:25:10       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2MN-49AV-8JYC
+2023-07-24 13:25:11       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:11       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2MN-4RPF-R7BN', 'json': {'name': '01258-MRI-FW0 - US-IL-ROBI1'}}
+2023-07-24 13:25:11       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2MN-4RPF-R7BN
+2023-07-24 13:25:12       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:12       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2MN-6S4P-XYXA', 'json': {'name': '01107-CCO-FW0 - US-IL-BENS1'}}
+2023-07-24 13:25:12       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2MN-6S4P-XYXA
+2023-07-24 13:25:13       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:13       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2MN-6Y2S-ZNQT', 'json': {'name': '01225-SCE-FW0 - US-CA-COLT1'}}
+2023-07-24 13:25:13       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2MN-6Y2S-ZNQT
+2023-07-24 13:25:16       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:16       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2MN-BPYE-DCJE', 'json': {'name': '00114-TYL-FW0 - US-TX-TYLE1'}}
+2023-07-24 13:25:16       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2MN-BPYE-DCJE
+2023-07-24 13:25:17       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:17       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2MN-BWPT-UA3E', 'json': {'name': '01209-CHS-FW0 - US-NY-COHO2'}}
+2023-07-24 13:25:17       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2MN-BWPT-UA3E
+2023-07-24 13:25:19       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:19       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2MN-BZM7-HE5A', 'json': {'name': '00031-LCA-FW0 - US-CA-LONG1'}}
+2023-07-24 13:25:19       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2MN-BZM7-HE5A
+2023-07-24 13:25:20       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:20       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2MN-C77R-TQ9E', 'json': {'name': '1215-JLA-FW0 - US-LA-JEAN1'}}
+2023-07-24 13:25:20       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2MN-C77R-TQ9E
+2023-07-24 13:25:22       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:22       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2MN-EAJ4-ZGV4', 'json': {'name': '01161-SDC-FW0 - US-CO-COMM2'}}
+2023-07-24 13:25:22       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2MN-EAJ4-ZGV4
+2023-07-24 13:25:23       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:23       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2MN-GVSD-AYWP', 'json': {'name': '00044-AWA-FW1 - US-WA-MVER2'}}
+2023-07-24 13:25:23       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2MN-GVSD-AYWP
+2023-07-24 13:25:24       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:24       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2MN-ZP67-CDFP', 'json': {'name': '01702-BGE-FW0 - US-MD-BALT3'}}
+2023-07-24 13:25:24       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2MN-ZP67-CDFP
+2023-07-24 13:25:25       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:25       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2MN-ZP9W-CSVW', 'json': {'name': '0215-CIL-FW0 - US-IL-CHAN1'}}
+2023-07-24 13:25:25       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2MN-ZP9W-CSVW
+2023-07-24 13:25:28       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:29       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2MN-ZQ86-AB4X', 'json': {'name': '1113-CCA-FW0 - US-CA-SANA1'}}
+2023-07-24 13:25:29       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2MN-ZQ86-AB4X
+2023-07-24 13:25:29       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:30       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2MN-ZQL3-HRD3', 'json': {'name': '01563-UGC-FW0 - US-IL-GRAN1'}}
+2023-07-24 13:25:30       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2MN-ZQL3-HRD3
+2023-07-24 13:25:30       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:30       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2MN-ZRA6-FDJD', 'json': {'name': '01226-LFL-FW0 - US-LA-LAFA1'}}
+2023-07-24 13:25:30       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2MN-ZRA6-FDJD
+2023-07-24 13:25:31       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:31       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2MN-ZRCS-TG9E', 'json': {'name': '01217-LAN-FW0 - US-LA-GIBS1'}}
+2023-07-24 13:25:31       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2MN-ZRCS-TG9E
+2023-07-24 13:25:32       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:32       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2MN-ZRGG-PSYV', 'json': {'name': '1149-WCU-FW0 - US-UT-WOOD1'}}
+2023-07-24 13:25:32       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2MN-ZRGG-PSYV
+2023-07-24 13:25:50       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:50       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2MN-ZS8A-FZVQ', 'json': {'name': '01171-UFA-FW0 - US-AL-FAIR1'}}
+2023-07-24 13:25:50       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2MN-ZS8A-FZVQ
+2023-07-24 13:25:51       meraki:     INFO > devices, updateDevice - 200 OK
+2023-07-24 13:25:51       meraki:    DEBUG > {'tags': ['devices', 'configure'], 'operation': 'updateDevice', 'method': 'PUT', 'url': '/devices/Q2PY-MWT4-5W6D', 'json': {'name': '01135-VBN-FW0 - US-CA-BENI4'}}
+2023-07-24 13:25:51       meraki:     INFO > PUT https://api.meraki.com/api/v1/devices/Q2PY-MWT4-5W6D
+2023-07-24 13:25:52       meraki:     INFO > devices, updateDevice - 200 OK
